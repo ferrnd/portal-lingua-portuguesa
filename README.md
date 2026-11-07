@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portal de Língua Portuguesa
 
-## Getting Started
+Portal de Língua Portuguesa do Projeto Integrador Final do curso Técnico em Desenvolvimento de Sistemas do SENAI Valinhos.
 
-First, run the development server:
+Front-end e back-end ficam no mesmo projeto Next.js: as páginas ficam em `src/app` e a API fica em `src/app/api`.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Estrutura do back-end
+
+```
+prisma/
+├── schema.prisma               # Tabelas do banco
+└── seed.js                     # Dados iniciais
+prisma.config.js                # Configuração do Prisma
+src/
+├── app/api/exemplos/
+│   ├── route.js                # GET (todos) e POST
+│   └── [id]/route.js           # GET (por id), PUT e DELETE
+├── controllers/
+│   └── exemploController.js    # Validações e respostas
+├── models/
+│   └── ExemploModel.js         # Acesso ao banco com o Prisma
+└── lib/services/
+    └── prismaClient.js         # Conexão com o PostgreSQL
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O fluxo segue as camadas **Rota → Controller → Model**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Rotas da API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Método | Rota | O que faz |
+| ------ | ---- | --------- |
+| GET | `/api/exemplos` | Lista os registros (aceita filtros por query, ex.: `?nome=alpha`) |
+| GET | `/api/exemplos/:id` | Busca um registro pelo id |
+| POST | `/api/exemplos` | Cria um registro |
+| PUT | `/api/exemplos/:id` | Atualiza um registro |
+| DELETE | `/api/exemplos/:id` | Exclui um registro |
 
-## Learn More
+# 1. Instalar dependências
+- npm i
 
-To learn more about Next.js, take a look at the following resources:
+# 2. Configurar `.env`
+- Copie o `.env.example` para `.env`
+- DATABASE_URL="postgresql://usuario:senha@localhost:porta/nome_do_banco_db"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 3. Configurar schema.prisma
+- crie suas tabelas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 4. Gerar SQL
+- npx prisma migrate dev --name init
+- npx prisma generate
 
-## Deploy on Vercel
+# 5. Semear dados no banco
+- npx prisma db seed
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 6. Abrir Prisma Studio
+- npx prisma studio
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 7. Rodar o projeto
+- npm run dev
+
+## Casos de erros
+
+### Após alterar schema.prisma
+- npx prisma migrate dev --name nome_da_alteracao (exemplo: adicionar_tabela_users)
+- npx prisma generate
+
+### Banco inconsistente (⚠️ APAGA TUDO)
+- npx prisma migrate reset
+
+### Apenas popular dados
+- npx prisma db seed
+
+### Dicas
+|   Comando       | Apaga dados?    | Cria migrations? | Uso            |
+| --------------- | ------------    | ---------------- | -------------- |
+| `migrate dev`   | ❌ Não          | ✅ Sim          | Alterar schema |
+| `db seed`       | ❌ Não          | ❌ Não          | Popular dados  |
+| `migrate reset` | ✅ SIM          | ❌ Não          | DEV only       |
+
+## Clonou repositório e não existe o banco em seu PC?
+- npm i
+- Siga os passos 2, 4 e 5
