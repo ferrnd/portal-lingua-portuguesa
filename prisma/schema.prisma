@@ -14,3 +14,14 @@ model Exemplo {
 
     @@map("exemplo")
 }
+
+model Noticia {
+    id             Int      @id @default(autoincrement())
+    titulo         String
+    resumo         String   @db.Text
+    conteudo       String   @db.Text
+    dataPublicacao DateTime
+    urlImagem      String
+
+    @@map("noticia")
+}
