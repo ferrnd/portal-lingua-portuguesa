@@ -1,4 +1,4 @@
-import * as controller from '@/controllers/exemploController.js';
+import * as controller from '@/controllers/noticiaController.js';
 
 export async function GET(request, { params }) {
     const { id } = await params;
