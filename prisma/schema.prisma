@@ -22,6 +22,7 @@ model Noticia {
     conteudo       String   @db.Text
     dataPublicacao DateTime
     urlImagem      String
+    urlFonte       String?
 
     @@map("noticia")
 }
