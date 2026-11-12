@@ -17,7 +17,7 @@ export const criar = async (request) => {
             return NextResponse.json({ error: 'Corpo da requisição vazio. Envie os dados!' }, { status: 400 });
         }
 
-        const { titulo, resumo, conteudo, dataPublicacao, urlImagem } = body;
+        const { titulo, resumo, conteudo, dataPublicacao, urlImagem, urlFonte } = body;
 
         if (!titulo) {
             return NextResponse.json({ error: 'O campo "titulo" é obrigatório!' }, { status: 400 });
@@ -41,6 +41,7 @@ export const criar = async (request) => {
             conteudo,
             dataPublicacao: new Date(dataPublicacao),
             urlImagem,
+            urlFonte,
         });
         const data = await noticia.criar();
 
@@ -119,6 +120,9 @@ export const atualizar = async (request, id) => {
         }
         if (body.urlImagem !== undefined) {
             noticia.urlImagem = body.urlImagem;
+        }
+        if (body.urlFonte !== undefined) {
+            noticia.urlFonte = body.urlFonte;
         }
 
         const data = await noticia.atualizar();
