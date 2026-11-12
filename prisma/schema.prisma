@@ -34,3 +34,13 @@ model Video {
 
     @@map("video")
 }
+
+model Questao {
+    id              Int      @id @default(autoincrement())
+    enunciado       String   @db.Text
+    alternativas    String[]
+    respostaCorreta String
+    explicacao      String   @db.Text
+
+    @@map("questao")
+}
