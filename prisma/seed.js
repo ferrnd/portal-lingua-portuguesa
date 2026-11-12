@@ -152,12 +152,339 @@ const videos = [
     },
 ];
 
+const questoes = [
+    // Questão 1
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 2
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 3
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 4
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 5
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 6
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 7
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 8
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 9
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 10
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 11
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 12
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 13
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 14
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 15
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 16
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 17
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 18
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 19
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 20
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 21
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 22
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 23
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 24
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+    // Questão 25
+    {
+        enunciado: '',
+        alternativas: [
+            '',
+            '',
+            '',
+            '',
+            '',
+        ],
+        respostaCorreta: '',
+        explicacao: '',
+    },
+];
+
 async function main() {
-    console.log('🌱 Resetando tabelas noticia e video...');
+    console.log('🌱 Resetando tabelas noticia, video e questao...');
 
     // Remove todos os registros
-    await prisma.noticia.deleteMany();
-    await prisma.video.deleteMany();
+    await prisma.$executeRaw`TRUNCATE TABLE noticia, video, questao RESTART IDENTITY`;
 
     console.log('📦 Inserindo novos registros...');
 
@@ -169,7 +496,11 @@ async function main() {
 
     await prisma.video.createMany({ data: videosPreenchidos });
 
-    console.log(`✅ Seed concluído! ${preenchidas.length} notícias e ${videosPreenchidos.length} vídeos inseridos.`);
+    const questoesPreenchidas = questoes.filter((questao) => questao.enunciado);
+
+    await prisma.questao.createMany({ data: questoesPreenchidas });
+
+    console.log(`✅ Seed concluído! ${preenchidas.length} notícias, ${videosPreenchidos.length} vídeos e ${questoesPreenchidas.length} questões inseridos.`);
 }
 
 main()
