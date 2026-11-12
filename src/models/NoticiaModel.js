@@ -1,13 +1,14 @@
 import prisma from '../lib/services/prismaClient.js';
 
 export default class NoticiaModel {
-    constructor({ id = null, titulo, resumo, conteudo, dataPublicacao, urlImagem } = {}) {
+    constructor({ id = null, titulo, resumo, conteudo, dataPublicacao, urlImagem, urlFonte = null } = {}) {
         this.id = id;
         this.titulo = titulo;
         this.resumo = resumo;
         this.conteudo = conteudo;
         this.dataPublicacao = dataPublicacao;
         this.urlImagem = urlImagem;
+        this.urlFonte = urlFonte;
     }
 
     async criar() {
@@ -18,6 +19,7 @@ export default class NoticiaModel {
                 conteudo: this.conteudo,
                 dataPublicacao: this.dataPublicacao,
                 urlImagem: this.urlImagem,
+                urlFonte: this.urlFonte,
             },
         });
     }
@@ -31,6 +33,7 @@ export default class NoticiaModel {
                 conteudo: this.conteudo,
                 dataPublicacao: this.dataPublicacao,
                 urlImagem: this.urlImagem,
+                urlFonte: this.urlFonte,
             },
         });
     }
