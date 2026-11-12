@@ -1,4 +1,4 @@
-import * as controller from '@/controllers/exemploController.js';
+import * as controller from '@/controllers/noticiaController.js';
 
 export async function POST(request) {
     return controller.criar(request);
