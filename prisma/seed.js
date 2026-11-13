@@ -170,30 +170,102 @@ const videos = [
 const questoes = [
     // Questão 1
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: ` (Fuvest - 2014) A civilização “pós-moderna” culminou em um progresso inegável, que não foi percebido antecipadamente, em sua inteireza. Ao mesmo tempo, sob o “mau uso” da ciência, da tecnologia e da capacidade de invenção nos precipitou na miséria moral inexorável. Os que condenam a ciência, a tecnologia e a invenção criativa por essa miséria ignoram os desafios que explodiram com o capitalismo monopolista de sua terceira fase.
+
+        Em páginas secas premonitórias, E. Mandel1 apontara tais riscos. O “livre jogo do mercado” (que não é e nunca foi “livre”) rasgou o ventre das vítimas: milhões de seres humanos nos países ricos e uma carrada maior de milhões nos países pobres. O centro acabou fabricando a sua periferia intrínseca e apossou-se, como não sucedeu nem sob o regime colonial direto, das outras periferias externas, que abrangem quase todo o “resto do mundo”.
+
+        1: Ernest Ezra Mandel (1923-1995): economista e militante político belga.
+
+        O emprego de aspas em uma dada expressão pode servir, inclusive, para indicar que ela:
+
+        I. foi utilizada pelo autor com algum tipo de restrição;
+        II. pertence ao jargão de uma determinada área do conhecimento;
+        III. contém sentido pejorativo, não assumido pelo autor.
+
+        Considere as seguintes ocorrências de emprego de aspas presentes no texto:
+
+        A. “pós-moderna” (L. 1);
+        B. “mau uso” (L. 2);
+        C. “livre jogo do mercado” (L. 6);
+        D. “livre” (L. 7);
+        E. “resto do mundo” (L. 9).
+
+        As modalidades I, II e III de uso de aspas, elencadas acima, verificam-se, respectivamente, em`,
+        alternativas: [
+            'a) A, C e E',
+            'b) B, C e D',
+            'c) C, D e E',
+            'd) A, B e E',
+            'e) B, D e A',
+        ],
+        respostaCorreta: 'a) A, C e E',
+        explicacao: `O uso das aspas no texto indicam algumas intenções do autor:
+
+        “Pós-moderna”: o autor entende que ainda existem algumas restrições sobre o uso desse termo, seja por ser incerto ou pouco aceito pela comunidade acadêmica. O termo pós-moderno indica uma fase que começou após o modernismo, no entanto, alguns autores se referem a esse momento por “contemporaneidade”.
+
+        “Livre jogo do mercado”: as aspas aqui foram usadas pois essa é uma expressão usada na área da economia e, portanto, trata-se de um jargão. Ela indica a liberdade do mercado em atuar sem intervenção do estado.
+
+        “Resto do mundo”: o autor usou aspas nessa expressão para indicar que existe um caráter pejorativo nela do qual ele não compartilha, ou seja, não concorda.`,
     },
     // Questão 2
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(Enem - 2012) “Ele era o inimigo do rei”, nas palavras de seu biógrafo, Lira Neto. Ou, ainda, “um romancista que colecionava desafetos, azucrinava D. Pedro II e acabou inventando o Brasil”. Assim era José de Alencar (1829-1877), o conhecido autor de O guarani e Iracema, tido como o pai do romance no Brasil.
+
+        Além de criar clássicos da literatura brasileira com temas nativistas, indianistas e históricos, ele foi também folhetinista, diretor de jornal, autor de peças de teatro, advogado, deputado federal e até ministro da Justiça. Para ajudar na descoberta das múltiplas facetas desse personagem do século XIX, parte de seu acervo inédito será digitalizada.
+
+        História Viva, n.° 99, 2011.
+
+        Com base no texto, que trata do papel do escritor José de Alencar e da futura digitalização de sua obra, depreende-se que`,
+        alternativas: [
+            'a) a digitalização dos textos é importante para que os leitores possam compreender seus romances.',
+            'b) o conhecido autor de O guarani e Iracema foi importante porque deixou uma vasta obra literária com temática atemporal.',
+            'c) a divulgação das obras de José de Alencar, por meio da digitalização, demonstra sua importância para a história do Brasil Imperial.',
+            'd) a digitalização dos textos de José de Alencar terá importante papel na preservação da memória linguística e da identidade nacional.',
+            'e) o grande romancista José de Alencar é importante porque se destacou por sua temática indianista',
+        ],
+        respostaCorreta: 'd) a digitalização dos textos de José de Alencar terá importante papel na preservação da memória linguística e da identidade nacional.',
+        explicacao: `a digitalização dos textos de José de Alencar terá importante papel na preservação da memória linguística e da identidade nacional.
+
+        A importância de José de Alencar (1829-1877) não se limita somente ao Brasil Imperial (1822-1889). Escritor multifacetado, ele atuou como jornalista, crítico, advogado, dramaturgo e político, sendo uma das figuras mais importantes da literatura romântica nacional.
+
+        Por esse motivo, a digitalização de suas obras, sem dúvida, fortalecerá a preservação da memória linguística e da identidade nacional, tornando público seus escritos.`,
     },
     // Questão 3
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(UERJ - 2016/1) “Todo abacate é verde. O incrível Hulk é verde. O incrível Hulk é um abacate.”
+
+        Todo argumento pode se tornar um sofisma: um raciocínio errado ou inadequado que nos leva a conclusões falsas ou improcedentes.
+
+        O último parágrafo do texto é um exemplo de sofisma, considerando que, da constatação de que todo abacate é verde, não se pode deduzir que só os abacates têm cor verde.
+
+        Esse é o tipo de sofisma que adota o seguinte procedimento:`,
+        alternativas: [
+            'a) enumeração incorreta',
+            'b) generalização indevida',
+            'c) representação imprecisa',
+            'd) exemplificação inconsistente',
+            'e) inversão indevida da relação lógica',
+        ],
+        respostaCorreta: 'b) generalização indevida',
+        explicacao: `No caso de generalização indevida, chega-se a uma conclusão geral precipitada a partir de uma situação particular, cuja amostra analisada é muito pequena não sendo possível sustentar uma generalização.
+
+        No exemplo acima ocorreu isso, o que gerou um erro de lógica, uma vez que a generalização criada não pode ser utilizada em todos os casos possíveis.`,
     },
     // Questão 4
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
+        enunciado: `(Fuvest - 2013) A essência da teoria democrática é a supressão de qualquer imposição de classe, fundada no postulado ou na crença de que os conflitos e problemas humanos – econômicos, políticos, ou sociais – são solucionáveis pela educação, isto é, pela cooperação voluntária, mobilizada pela opinião pública esclarecida. Está claro que essa opinião pública terá de ser formada à luz dos melhores conhecimentos existentes e, assim, a pesquisa científica nos campos das ciências naturais e das chamadas ciências sociais deverá se fazer a mais ampla, a mais vigorosa, a mais livre, e a difusão desses conhecimentos, a mais completa, a mais imparcial e em termos que os tornem acessíveis a todos.
+
+        (Anísio Teixeira, Educação é um direito. Adaptado.)
+
+        No trecho “chamadas ciências sociais”, o emprego do termo “chamadas” indica que o autor`,
+        alternativas: [
+            'a) vê, nas “ciências sociais”, uma panaceia, não uma análise crítica da sociedade.',
+            'b) considera utópicos os objetivos dessas ciências.',
+            'c) prefere a denominação “teoria social” à denominação “ciências sociais”.',
+            'd) discorda dos pressupostos teóricos dessas ciências.',
+            'e) utiliza com reserva a denominação “ciências sociais”.',
+        ],
+        respostaCorreta: 'e) utiliza com reserva a denominação “ciências sociais”.',
         explicacao: '',
     },
     // Questão 5
