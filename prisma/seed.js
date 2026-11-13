@@ -296,9 +296,7 @@ const questoes = [
             'e) o grande romancista José de Alencar é importante porque se destacou por sua temática indianista',
         ],
         respostaCorreta: 'd) a digitalização dos textos de José de Alencar terá importante papel na preservação da memória linguística e da identidade nacional.',
-        explicacao: `a digitalização dos textos de José de Alencar terá importante papel na preservação da memória linguística e da identidade nacional.
-
-        A importância de José de Alencar (1829-1877) não se limita somente ao Brasil Imperial (1822-1889). Escritor multifacetado, ele atuou como jornalista, crítico, advogado, dramaturgo e político, sendo uma das figuras mais importantes da literatura romântica nacional.
+        explicacao: `A importância de José de Alencar (1829-1877) não se limita somente ao Brasil Imperial (1822-1889). Escritor multifacetado, ele atuou como jornalista, crítico, advogado, dramaturgo e político, sendo uma das figuras mais importantes da literatura romântica nacional.
 
         Por esse motivo, a digitalização de suas obras, sem dúvida, fortalecerá a preservação da memória linguística e da identidade nacional, tornando público seus escritos.`,
     },
@@ -338,84 +336,285 @@ const questoes = [
             'e) utiliza com reserva a denominação “ciências sociais”.',
         ],
         respostaCorreta: 'e) utiliza com reserva a denominação “ciências sociais”.',
-        explicacao: '',
+        explicacao: 'Ao utilizar a palavra “chamadas” antes de “ciências sociais”, o autor do texto evita a generalização do termo, utilizando-o com reserva.',
     },
     // Questão 5
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(UEA - 2017) Leia o trecho de Quincas Borba, de Machado de Assis:
+
+        E enquanto uma chora, outra ri; é a lei do mundo, meu rico senhor; é a perfeição universal. Tudo chorando seria monótono, tudo rindo cansativo; mas uma boa distribuição de lágrimas e polcas1, soluços e sarabandas2, acaba por trazer à alma do mundo a variedade necessária, e faz-se o equilíbrio da vida.
+
+        (Quincas Borba, 1992.)
+
+        1 polca: tipo de dança.
+        2 sarabanda: tipo de dança.
+
+        De acordo com o narrador,`,
+        alternativas: [
+             'a) os erros do passado não afetam o presente.',
+             'b) a existência é marcada por antagonismos.',
+             'c) a sabedoria está em perseguir a felicidade.',
+             'd) cada instante vivido deve ser festejado.',
+             'e) os momentos felizes são mais raros que os tristes.'
+            ],
+        respostaCorreta: 'd) cada instante vivido deve ser festejado.',
+        explicacao: 'A partir da leitura do trecho de Quincas Borba, fica claro que a vida é marcada por diferentes antagonismos ou oposições (chora e ri), e isso é o que denota seu equilíbrio.',
     },
     // Questão 6
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(PUC-SP)
+
+        (...) Da garrafa estilhaçada, no ladrilho já sereno escorre uma coisa espessa que é leite, sangue... não sei. Por entre objetos confusos, mal redimidos da noite, duas cores se procuram, suavemente se tocam, amorosamente se enlaçam, formando um terceiro tom a que chamamos aurora.
+
+        (Carlos Drummond de Andrade)
+
+        No fragmento anterior, Carlos Drummond de Andrade constrói, poeticamente, a aurora. O que permite visualizar este momento do dia corresponde:`,
+        alternativas: [
+            'a) a objetos confusos mal redimido da noite.',
+            'b) à garrafa estilhaçada e ao ladrilho sereno.',
+            'c) à aproximação suave de dois corpos.',
+            'd) ao enlace amoroso de duas cores.',
+            'e) ao fluir espesso do sangue sobre o ladrilho.'
+            ],
+        respostaCorreta: 'd) ao enlace amoroso de duas cores.',
+        explicacao: 'Com a leitura do trecho acima, compreendemos que a descrição feita pelo escritor é a respeito da aurora, ou seja, o momento do nascer do sol em que observamos uma mistura de cores com a saída da noite e chegada do dia.',
     },
     // Questão 7
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(FCC-2013)
+
+        esta vida é uma viagem
+        pena eu estar
+        só de passagem
+
+        (Paulo Leminski, La vie em close. 5a ed. S.Paulo: Brasiliense, 2000, p.134)
+
+        No poema de apenas três versos, o poeta lamenta-se`,
+        alternativas: [
+            'a) da fugacidade da vida.',
+            'b) demonstra preferir a vida espiritual à terrena.',
+            'c) revolta-se contra o seu destino.',
+            'd) sugere que a vida não tem sentido.',
+            'e) abomina a agitação da vida.'
+        ],
+        respostaCorreta: 'a) da fugacidade da vida.',
+        explicacao: 'A partir da leitura do poema, podemos compreender que o autor aborda sobre a efemeridade da vida, ou seja, sua qualidade de ser fugaz e que acaba com rapidez para todos, tal qual uma viagem.',
     },
     // Questão 8
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(Fatec - 2013) Leia o texto para responder às questões.
+
+        O labirinto dos manuais
+
+        Há alguns meses troquei meu celular. Um modelo lindo, pequeno, prático. Segundo a vendedora, era capaz de tudo e mais um pouco. Fotografava, fazia vídeos, recebia e-mails e até servia para telefonar. Abri o manual, entusiasmado. “Agora eu aprendo”, decidi, folheando as 49 páginas. Já na primeira, tentei executar as funções. Duas horas depois, eu estava prestes a roer o aparelho. O manual tentava prever todas as possibilidades. Virou um labirinto de instruções!
+
+        Na semana seguinte, tentei baixar o som da campainha. Só aumentava. Buscava o vibracall, não achava. Era só alguém me chamar e todo mundo em torno saía correndo, pensando que era o alarme de incêndio! Quem me salvou foi um motorista de táxi.
+
+        — Manual só confunde – disse didaticamente. – Dá uma de curioso.
+
+        Insisti e finalmente descobri que estava no vibracall há meses! O único problema é que agora não consigo botar a campainha de volta!
+
+        Atualmente, estou de computador novo. Fiz o que toda pessoa minuciosa faria. Comprei um livro. Na capa, a promessa: “Rápido e fácil” – um guia prático, simples e colorido! Resolvi: “Vou seguir cada instrução, página por página. Do que adianta ter um supercomputador se não sei usá-lo?”. Quando cheguei à página 20, minha cabeça latejava. O livro tem 342! Cada vez que olho, dá vontade de chorar! Não seria melhor gastar o tempo relendo Guerra e Paz*?
+
+        Tudo foi criado para simplificar. Mas até o microndas ficou difícil. A não ser que eu queira fazer pipoca, que possui sua tecla própria. Mas não posso me alimentar só de pipoca! Ainda se emagrecesse... E o fax com secretária eletrônica? O anterior era simples. Eu apertava um botão e apagava as mensagens. O atual exige que eu toque em um, depois em outro para confirmar, e de novo no primeiro! Outro dia, a luzinha estava piscando. Tentei ouvir a mensagem. A secretária disparou todas as mensagens, desde o início do ano!
+
+        Eu sei que para a garotada que está aí tudo parece muito simples. Mas o mundo é para todos, não é? Talvez alguém dê aulas para entender manuais! Ou o jeito seria aprender só aquilo de que tenho realmente necessidade, e não usar todas as funções. É o que a maioria das pessoas acaba fazendo!
+
+        (Walcyr Carrasco, Veja SP, 19.09.2007. Adaptado)
+
+        * Livro do escritor russo Liev Tolstói. Com mais de mil páginas e centenas de personagens, é considerada uma das maiores obras da história da literatura.
+
+        Pelos comentários feitos pelo narrador, pode-se concluir corretamente que`,
+        alternativas: [
+            'a) a leitura de obras-primas da literatura é atividade mais produtiva do que utilizar celulares e computadores.',
+            'b) os manuais cujas diversas instruções os usuários não conseguem compreender e pôr em prática são improdutivos.',
+            'c) a vendedora foi convincente, pois o narrador comprou o celular, embora duvidasse das qualidades prometidas pelo aparelho.',
+            'd) o manual sobre computadores, ao contrário de outros do gênero, cumpria a promessa assumida nos dizeres impressos na capa.',
+             'e) os jovens deveriam ensinar computação aos mais velhos, pois, dessa forma, estes últimos entenderiam as funções básicas do equipamento.'],
+        respostaCorreta: 'b) os manuais cujas diversas instruções os usuários não conseguem compreender e pôr em prática são improdutivos.',
+        explicacao: `Segundo o texto, os manuais de instruções dos aparelhos mais confundem do que ajudam e, por isso, são indicados como “labirintos” onde as pessoas se perdem.`,
     },
     // Questão 9
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+    enunciado: `(Unicamp - 2025)
+
+    Em "A vida não é útil", Ailton Krenak relata a preocupação de povos indígenas diante da expansão da sociedade dos homens brancos sobre seus territórios e modos de vida. Segundo o autor, os pajés alertam para os riscos de uma visão de mundo que ameaça a existência de outros povos e formas de compreender a natureza.
+
+    A preocupação apresentada no texto está relacionada:`,
+    alternativas: [
+        'a) à defesa do desenvolvimento econômico como principal caminho para preservar as culturas indígenas.',
+        'b) à necessidade de substituir os conhecimentos tradicionais pelos conhecimentos científicos.',
+        'c) à diferença de perspectivas na relação entre ser humano e natureza, valorizando um conhecimento não predatório.',
+        'd) à rejeição de qualquer contato entre os povos indígenas e as sociedades urbanizadas.',
+        'e) à valorização da exploração dos recursos naturais como forma de integração cultural.'
+    ],
+    respostaCorreta: 'c) à diferença de perspectivas na relação entre ser humano e natureza, valorizando um conhecimento não predatório.',
+    explicacao: `A questão aborda o contraste entre diferentes formas de compreender a natureza. A perspectiva indígena apresentada por Ailton Krenak valoriza uma relação de respeito e    equilíbrio com o ambiente, em oposição à exploração predatória dos recursos naturais.`
     },
     // Questão 10
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(Unesp - 2010)
+
+        Texto 1
+
+        Porque morrer é uma ou outra destas duas coisas: ou o morto não tem absolutamente nenhuma existência, nenhuma consciência do que quer que seja, ou, como se diz, a morte é precisamente uma mudança de existência e, para a alma, uma migração deste lugar para um outro. Se, de fato, não há sensação alguma, mas é como um sono, a morte seria um maravilhoso presente. […] Se, ao contrário, a morte é como uma passagem deste para outro lugar, e, se é verdade o que se diz que lá se encontram todos os mortos, qual o bem que poderia existir, ó juízes, maior do que este? Porque, se chegarmos ao Hades, libertando-nos destes que se vangloriam serem juízes, havemos de encontrar os verdadeiros juízes, os quais nos diria que fazem justiça acolá: Monos e Radamante, Éaco e Triptolemo, e tantos outros deuses e semideuses que foram justos na vida; seria então essa viagem uma viagem de se fazer pouco caso? Que preço não seríeis capazes de pagar, para conversar com Orfeu, Museu, Hesíodo e Homero?
+
+        (Platão. Apologia de Sócrates, 2000.)
+
+        Texto 2
+
+        Ninguém sabe quando será seu último passeio, mas agora é possível se despedir em grande estilo. Uma 300C Touring, a versão perua do sedã de luxo da Chrysler, foi transformada no primeiro carro funerário customizado da América Latina. A mudança levou sete meses, custou R$ 160 mil e deixou o carro com oito metros de comprimento e 2 340 kg, três metros e 540 kg além da original. O Funeral Car 300C tem luzes piscantes na já imponente dianteira e enormes rodas, de aro 22, com direito a pequenos caixões estilizados nos raios. Bandeiras nas pontas do capô, como nos carros de diplomatas, dão um toque refinado. Com o chassi mais longo, o banco traseiro foi mantido para familiares acompanharem o cortejo dentro do carro. No encosto dos dianteiros, telas exibem mensagens de conforto. O carro faz parte de um pacote de cerimonial fúnebre que inclui, além do cortejo no Funeral Car 300C, serviços como violinistas e revoada de pombas brancas no enterro.
+
+        (Funeral tunado. Folha de S.Paulo, 28.02.2010.)
+
+        Confrontando o conteúdo dos dois textos, pode-se afirmar que:`,
+        alternativas: [
+            'a) embora os dois textos transmitam concepções divergentes acerca da morte, eles tratam de visões concernentes à mesma época, a saber, a sociedade atual.',
+            'b) sob o ponto de vista filosófico, não há diferenças qualitativas entre uma e outra concepção sobre a morte.',
+            'c) os comentários do texto grego sobre a morte são coerentes com uma filosofia de forte valorização do corpo em detrimento da alma, e do mundo sensível sobre o mundo inteligível.',
+            'd) o texto de Platão evidencia uma cultura monoteísta, enquanto que o segundo é politeísta.',
+            'e) enquanto no primeiro texto transparece a dignidade metafísica da morte, no segundo sugere-se a conversão do funeral em espetáculo da sociedade de consumo.'],
+        respostaCorreta: 'e) enquanto no primeiro texto transparece a dignidade metafísica da morte, no segundo sugere-se a conversão do funeral em espetáculo da sociedade de consumo.',
+        explicacao: `A partir da leitura dos textos, fica claro que a morte é o tema principal, porém é abordada de maneiras diferentes.
+
+        Assim, no primeiro texto temos a morte como a passagem do mundo terreno ao espiritual; enquanto no segundo, o foco está no espetáculo do consumo, evocado por um “carro faz que parte de um pacote de cerimonial fúnebre”.`,
     },
     // Questão 11
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(Enem - 2013)
+
+        Adolescentes: mais altos, gordos e preguiçosos
+
+        A oferta de produtos industrializados e a falta de tempo têm sua parcela de responsabilidade no aumento da silhueta dos jovens. “Os nossos hábitos alimentares, de modo geral, mudaram muito”, observa Vivian Ellinger, presidente da Sociedade Brasileira de Endocrinologia e Metabologia (SBEM), no Rio de Janeiro. Pesquisas mostram que, aqui no Brasil, estamos exagerando no sal e no açúcar, além de tomar pouco leite e comer menos frutas e feijão.
+
+        Outro pecado, velho conhecido de quem exibe excesso de gordura por causa da gula, surge como marca da nova geração: a preguiça. “Cem por cento das meninas que participam do Programa não praticavam nenhum esporte”, revela a psicóloga Cristina Freire, que monitora o desenvolvimento emocional das voluntárias.
+
+        Você provavelmente já sabe quais são as consequências de uma rotina sedentária e cheia de gordura. “E não é novidade que os obesos têm uma sobrevida menor”, acredita Claudia Cozer, endocrinologista da Associação Brasileira para o Estudo da Obesidade e da Síndrome Metabólica. Mas, se há cinco anos os estudos projetavam um futuro sombrio para os jovens, no cenário atual as doenças que viriam na velhice já são parte da rotina deles. “Os adolescentes já estão sofrendo com hipertensão e diabete”, exemplifica Claudia.
+
+        DESGUALDO, P. Revista Saúde. Disponível em: http://saude.abril.com.br. Acesso em: 28 jul. 2012 (adaptado).
+
+        Sobre a relação entre os hábitos da população adolescente e as suas condições de saúde, as informações apresentadas no texto indicam que`,
+        alternativas: [
+            'a) a falta de atividade física somada a uma alimentação nutricionalmente desequilibrada constituem fatores relacionados ao aparecimento de doenças crônicas entre os adolescentes.',
+            'b) a diminuição do consumo de alimentos fontes de carboidratos combinada com um maior consumo de alimentos ricos em proteínas contribuíram para o aumento da obesidade entre os adolescentes.',
+            'c) a maior participação dos alimentos industrializados e gordurosos na dieta da população adolescente tem tornado escasso o consumo de sais e açúcares, o que prejudica o equilíbrio metabólico.',
+            'd) a ocorrência de casos de hipertensão e diabetes entre os adolescentes advém das condições de alimentação, enquanto que na população adulta os fatores hereditários são preponderantes.',
+            'e) a prática regular de atividade física é um importante fator de controle da diabetes entre a população adolescente, por provocar um constante aumento da pressão arterial sistólica.'
+            ],
+        respostaCorreta: 'a) a falta de atividade física somada a uma alimentação nutricionalmente desequilibrada constituem fatores relacionados ao aparecimento de doenças crônicas entre os adolescentes.',
+        explicacao: ` Com a leitura do texto, fica claro entender que a intenção da autora é alertar para os hábitos pouco ou nada saudáveis dos jovens da atualidade.
+
+        Destacam-se o consumo dos alimentos pobres em nutrientes e a falta de práticas diárias de exercícios físicos, o que levam ao sedentarismo e, consequentemente, ao surgimento de doenças crônicas.`,
     },
     // Questão 12
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+    enunciado: `(Unicamp - 2022)
+
+    O conceito de cultura pode envolver os valores de uma comunidade, as manifestações artísticas e os bens produzidos e compartilhados por diferentes grupos sociais.
+
+    Com a expansão da tecnologia digital, surgiram novas formas de circulação e comercialização desses bens. Entretanto, diferentes sociedades possuem tradições e entendimentos próprios sobre conceitos como cópia, originalidade e propriedade coletiva.
+
+    Com base nessas ideias, a defesa de uma cultura livre dependeria:`,
+    alternativas: [
+        'a) da concentração da produção cultural nas instituições responsáveis pelos direitos autorais.',
+        'b) da valorização exclusiva das manifestações culturais produzidas no Ocidente.',
+        'c) da eliminação das tecnologias digitais dos processos de compartilhamento cultural.',
+        'd) da consideração das experiências e dos valores de diferentes culturas.',
+        'e) da transformação de todas as manifestações culturais em produtos comerciais.'
+    ],
+    respostaCorreta: 'd) da consideração das experiências e dos valores de diferentes culturas.',
+    explicacao: `O texto destaca que as noções de cultura, propriedade e compartilhamento variam entre as sociedades. Portanto, defender uma cultura livre exige reconhecer e respeitar diferentes experiências e valores culturais.`
     },
     // Questão 13
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(Unesp - 2011)
+
+        O fim do marketing
+        A empresa vende ao consumidor
+        — com a web não é mais assim
+
+        Com a internet se tornando onipresente, os Quatro Ps do marketing — produto, praça, preço e promoção — não funcionam mais. O paradigma era simples e unidirecional: as empresas vendem aos consumidores. Nós criamos produtos; fixamos preços; definimos os locais onde vendê-los; e fazemos anúncios. Nós controlamos a mensagem. A internet transforma todas essas atividades.
+
+        (...)
+
+        Os produtos agora são customizados em massa, envolvem serviços e são marcados pelo conhecimento e os gostos dos consumidores. Por meio de comunidades online, os consumidores hoje participam do desenvolvimento do produto. Produtos estão se tornando experiências. Estão mortas as velhas concepções industriais na definição e marketing de produtos.
+
+        (...)
+
+        Graças às vendas online e à nova dinâmica do mercado, os preços fixados pelo fornecedor estão sendo cada vez mais desafiados. Hoje questionamos até o conceito de “preço”, à medida que os consumidores ganham acesso a ferramentas que lhes permitem determinar quanto querem pagar. Os consumidores vão oferecer vários preços por um produto, dependendo de condições específicas. Compradores e vendedores trocam mais informações e o preço se torna fluido. Os mercados, e não as empresas, decidem sobre os preços de produtos e serviços.
+
+        (...)
+
+        A empresa moderna compete em dois mundos: um físico (a praça, ou marketplace) e um mundo digital de informação (o espaço mercadológico, ou marketspace). As empresas não devem preocupar-se com a criação de um web site vistoso, mas sim de uma grande comunidade online e com o capital de relacionamento. Corações, e não olhos, são o que conta. Dentro de uma década, a maioria dos produtos será vendida no espaço mercadológico. Uma nova fronteira de comércio é a marketface — a interface entre o marketplace e o marketspace.
+
+        (...)
+
+        Publicidade, promoção, relações públicas etc. exploram “mensagens” unidirecionais, de um-para-muitos e de tamanho único, dirigidas a consumidores sem rosto e sem poder. As comunidades online perturbam drasticamente esse modelo. Os consumidores com frequência têm acesso a informações sobre os produtos, e o poder passa para o lado deles. São eles que controlam as regras do mercado, não você. Eles escolhem o meio e a mensagem. Em vez de receber mensagens enviadas por profissionais de relações públicas, eles criam a “opinião pública” online.
+
+        Os marqueteiros estão perdendo o controle, e isso é muito bom.
+
+        (Don Tapscott. O fim do marketing. INFO, São Paulo, Editora Abril, janeiro 2011, p. 22.)
+
+        A leitura atenta deste instigante artigo de Don Tapscott revela que o tema central de sua mensagem é:`,
+        alternativas: [
+            'a) O advento do comércio via internet subverteu as teorias tradicionais de marketing',
+            'b) O comércio via internet confirma todas as teorias de publicidade e marketing vigentes.',
+            'c) A aplicação dos princípios tradicionais de marketing se tornou vital para o sucesso do comércio online.',
+            'd) O comércio realizado em lojas físicas é ainda preferível ao realizado online.',
+            'e) A lei da oferta e da procura não influencia de nenhum modo o comércio via internet'
+        ],
+        respostaCorreta: 'a) O advento do comércio via internet subverteu as teorias tradicionais de marketing',
+        explicacao: `A partir da leitura do texto, podemos compreender que a internet foi uma das maiores influenciadoras nas mudanças de comportamento dos consumidores.
+
+        Com isso, as teorias associadas ao marketing, antes consideradas modernas, hoje em dia se tornaram obsoletas com o aumento de consumidores on-line.`,
     },
     // Questão 14
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+    enunciado: `(Unicamp - 2021)
+
+    Em uma crônica, Fernanda Young utiliza a palavra "cafona" para caracterizar comportamentos marcados pela falta de respeito, pela arrogância e pelo desprezo às regras de convivência social.
+
+    A autora associa essas atitudes a pessoas que procuram obter vantagens pessoais, desrespeitam os outros e demonstram desprezo pela educação e pela gentileza.
+
+    Essa releitura do significado de "cafona" destaca:`,
+    alternativas: [
+        'a) a importância da preservação das tradições culturais diante das transformações sociais.',
+        'b) a valorização de comportamentos individuais que favorecem o desenvolvimento econômico.',
+        'c) a relação entre a desigualdade social e a dificuldade de acesso à educação formal.',
+        'd) o privilégio de determinados grupos sociais e sua relação com os problemas enfrentados pelo país.',
+        'e) a oposição entre os costumes das gerações mais antigas e os hábitos da juventude.'
+    ],
+    respostaCorreta: 'd) o privilégio de determinados grupos sociais e sua relação com os problemas enfrentados pelo país.',
+    explicacao: `A autora utiliza o termo "cafona" de maneira crítica, associando-o a comportamentos arrogantes, antiéticos e privilegiados. Assim, relaciona atitudes individuais de determinados grupos aos problemas sociais e políticos do país.`
     },
     // Questão 15
     {
-        enunciado: '',
-        alternativas: ['', '', '', '', ''],
-        respostaCorreta: '',
-        explicacao: '',
+        enunciado: `(Vunesp - 2014)
+
+        A vida dá voltas
+
+        Sou um tipo meio fatalista. Acho que a vida dá voltas. Um amigo meu, Luís, casou-se com Cláudia, uma mulher egoísta. Ele era filho único, de mãe separada e sem pensão. Durante algum tempo, a mãe de Luís foi sustentada pelo próprio tio, um solteirão. Quando este faleceu, começaram as brigas domésticas: Cláudia não admitia que Luís desse dinheiro à mãe. Ele era um rapaz de classe média. Por algum tempo, arrumou trabalhos extras para ajudar a idosa.
+
+        Convencido pela esposa, ele mudou-se para longe. Visitava a mãe uma vez por ano. Para se livrar da questão financeira, Luís convenceu a mãe a vender o apartamento. Durante alguns anos, ela viveu desse dinheiro. Muitas vezes, lamentava a falta do filho, mas o que fazer? Luís, sempre tão ocupado, viajando pelo mundo todo, não tinha tempo disponível. Na casa da mãe, faltou até o essencial. E ela faleceu sozinha.
+
+        O tempo passou. Hoje, Luís, antes um profissional disputado, está desempregado. Foi obrigado a se instalar com a família na casa dos sogros, onde é atormentado diariamente. A filha de Luís e Cláudia cresceu e saiu de casa. Quer seguir seu próprio rumo!
+
+        Luís não tem renda, nem bens. Está quase se divorciando. Ficou fora do mercado de trabalho. O que vai acontecer? A filha cuidará dele? Tenho dúvidas, porque ele não a ensinou com seu próprio exemplo.
+
+        A vida é um eterno ciclo afetivo. Em uma época todos nós somos filhos. Em outra, tornamo-nos pais: é a nossa vez de cuidar de quem cuidou de nós.
+
+        (Walcyr Carrasco. http://vejasp.abril.com.br. Acesso em 30.12.2013. Adaptado)
+
+        Considerando o último parágrafo do texto, pode-se afirmar que a relação entre pais e filhos deve ser baseada`,
+        alternativas: [
+            'a) no medo.',
+            'b) na persistência.',
+            'c) na expectativa.',
+            'd) na esperança.',
+            'e) na troca.'
+        ],
+        respostaCorreta: 'e) na troca.',
+        explicacao: 'Considerando o último parágrafo do texto, o autor deixa claro que a vida é um ciclo, onde um dia nossos pais são os cuidadores e, no outro, somos nós que assumimos esse papel. Assim, temos expressa a ideia de retribuição, de troca.',
     },
     // Questão 16
     {
