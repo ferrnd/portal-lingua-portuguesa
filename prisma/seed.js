@@ -38,112 +38,112 @@ const noticias = [
     },
     // Notícia 4
     {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 5
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 6
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 7
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 8
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 9
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 10
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 11
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 12
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 13
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 14
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
-    // Notícia 15
-    {
-        titulo: '',
-        resumo: '',
-        conteudo: '',
-        dataPublicacao: new Date('2026-01-01'),
-        urlImagem: '',
-        urlFonte: '',
-    },
+    titulo: 'Agentes de leitura aceleram a alfabetização infantil em Belém',
+    resumo: 'Projeto educacional apresenta resultados positivos na evolução da escrita e na fluência de leitura de crianças.',
+    conteudo: 'A Prefeitura de Belém desenvolveu um projeto com profissionais especializados para ajudar crianças que apresentam dificuldades na alfabetização. Os agentes trabalham individualmente com os estudantes, utilizando livros, gibis, poemas, receitas e notícias. A iniciativa busca transformar crianças que conseguem ler apenas palavras e frases em leitoras capazes de compreender textos completos.',
+    dataPublicacao: new Date('2026-11-06'),
+    urlImagem: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200',
+    urlFonte: 'https://agencia.belem.pa.gov.br/agentes-de-leitura-aceleram-a-alfabetizacao-infantil-em-belem/'
+  },
+  {
+     // Notícia 5
+    titulo: 'A disputa pela atenção e a queda da leitura de livros no Brasil',
+    resumo: 'Pesquisa revela que os brasileiros estão lendo menos livros, apesar de permanecerem conectados durante muitas horas.',
+    conteudo: 'Um estudo publicado pelo Instituto de Pesquisa Econômica Aplicada (Ipea) aponta uma situação preocupante para a leitura no Brasil. Em 2024, os não leitores representavam 53% da população com cinco anos ou mais. O número de leitores caiu de 104,7 milhões em 2015 para 93,4 milhões em 2024. O estudo discute como as redes sociais, os vídeos curtos e o uso constante dos celulares disputam a atenção que poderia ser dedicada aos livros.',
+    dataPublicacao: new Date('2026-11-09'),
+    urlImagem: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200',
+    urlFonte: 'https://www.ipea.gov.br/cts/pt/central-de-conteudo/artigos/artigos/559-a-disputa-pela-atencao-e-a-queda-da-leitura-de-livros-no-brasil'
+  },
+  {
+     // Notícia 6
+    titulo: 'Brasil tem 8,4 milhões de pessoas que não sabem ler e escrever',
+    resumo: 'Mesmo com avanços na educação, milhões de brasileiros ainda enfrentam o analfabetismo.',
+    conteudo: 'Dados divulgados pelo IBGE mostram que o Brasil ainda possui 8,4 milhões de pessoas que não sabem ler e escrever. A maioria está na faixa etária de 60 anos ou mais. O cenário demonstra que o acesso à alfabetização continua sendo um desafio no país.',
+    dataPublicacao: new Date('2026-06-19'),
+    urlImagem: '',
+    urlFonte: 'https://agenciabrasil.ebc.com.br/educacao/noticia/2026-06/ibge-pais-tem-84-milhoes-de-analfabetos-menor-numero-desde-2016'
+  },
+  {
+     // Notícia 7
+    titulo: 'Especialista alerta para os desafios da leitura e da escrita na educação brasileira',
+    resumo: 'Professora da Unesp analisa a diminuição do hábito de leitura e os desafios enfrentados pelos educadores.',
+    conteudo: 'Em entrevista publicada pelo Jornal da Unesp, a pesquisadora Maria Mortatti discutiu os desafios de ensinar crianças e jovens a ler e escrever. A especialista destacou a queda no número de leitores no Brasil e a importância de aproximar os estudantes da literatura. A reportagem também aborda a necessidade de melhorar a formação dos professores e incentivar a leitura para além das atividades obrigatórias da escola.',
+    dataPublicacao: new Date('2026-11-11'),
+    urlImagem: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200',
+    urlFonte: 'https://jornal.unesp.br/2026/11/11/maria-mortatti-discute-os-desafios-de-ensinar-a-ler-e-escrever-no-brasil/'
+  },
+  {
+     // Notícia 8
+    titulo: 'Projeto leva incentivo à leitura para estações de metrô em São Paulo',
+    resumo: 'Parceria entre instituições promove atividades gratuitas de leitura e distribuição de gibis em estações de transporte público.',
+    conteudo: 'O Instituto Mauricio de Sousa e o Instituto Motiva realizaram uma ação para aproximar crianças e famílias do universo dos livros. A iniciativa utiliza personagens conhecidos, como os da Turma da Mônica, para despertar o interesse pela leitura. O projeto prevê mais de 140 atividades gratuitas e a distribuição de aproximadamente 10 mil exemplares de histórias em quadrinhos.',
+    dataPublicacao: new Date('2026-11-12'),
+    urlImagem: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200',
+    urlFonte: 'https://www.motiva.com.br/noticias/acao-incentivo-leitura-estacao-vila-das-belezas/'
+  },
+  {
+     // Notícia 9
+    titulo: 'Feira de Santana prepara 15 mil estudantes com aulas de Português',
+    resumo: 'Estudantes participam de atividades de revisão de Português e Matemática antes da avaliação SABE 2026.',
+    conteudo: 'A Prefeitura de Feira de Santana intensificou a preparação dos estudantes da rede municipal para o Sistema de Avaliação Baiano da Educação. As atividades incluíram aulas de revisão de Língua Portuguesa e Matemática, com participação presencial e transmissões pela internet. A expectativa era alcançar aproximadamente 15 mil estudantes. A iniciativa busca reforçar os conhecimentos escolares e melhorar o desempenho dos alunos.',
+    dataPublicacao: new Date('2026-11-12'),
+    urlImagem: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200',
+    urlFonte: 'https://jornalgrandebahia.com.br/2026/11/sabe-2026-governo-ronaldo-prepara-15-mil-estudantes-de-feira-de-santana-com-auloes-de-portugues-e-matematica-antes-da-avaliacao-estadual/'
+  },
+  {
+     // Notícia 10
+     titulo: 'Alunos migrantes sofrem preconceito por causa da maneira como falam',
+    resumo: 'Estudantes podem enfrentar discriminação por misturarem o português com outros idiomas.',
+    conteudo: 'Uma pesquisa da USP discutiu o preconceito linguístico enfrentado por estudantes migrantes nas escolas. Algumas crianças e adolescentes misturam o português com outros idiomas, como o espanhol, e acabam sendo julgados pela maneira como se comunicam. O caso destaca a importância de respeitar a diversidade linguística.',
+    dataPublicacao: new Date('2025-11-26'),
+    urlImagem: '',
+    urlFonte: 'https://jornal.usp.br/diversidade/como-algumas-escolas-mantem-preconceitos-linguisticos-contra-alunos-migrantes/'
+  },
+  {
+     // Notícia 11
+    titulo: 'Literatura indígena e afro-brasileira ganha espaço em festival literário',
+    resumo: 'Escritores discutem a importância de apresentar histórias e culturas indígenas e afro-brasileiras aos leitores.',
+    conteudo: 'A Festa Literária da Morada do Sol, em Araraquara, anunciou uma mesa dedicada à literatura infantil indígena e afro-brasileira. O encontro reúne escritores como Daniel Munduruku e Luana Antunes para discutir a importância das narrativas na valorização cultural. A iniciativa destaca como a literatura pode preservar memórias, apresentar diferentes realidades e combater a invisibilidade de determinados grupos na produção literária.',
+    dataPublicacao: new Date('2026-11-13'),
+    urlImagem: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200',
+    urlFonte: 'https://araraquaraagora.com/noticia/58047/flisol-2026-literatura-indigena-afro-brasileira-araraquara'
+  },
+  {
+     // Notícia 12
+    titulo: 'Prova de Linguagens do Enem 2026 apresenta literatura e temas atuais',
+    resumo: 'Questões da prova de Linguagens exigiram conhecimentos de literatura brasileira e compreensão de diferentes textos.',
+    conteudo: 'A prova de Linguagens do Enem 2026 apresentou questões envolvendo obras literárias, temas sociais e tecnologias. Entre os assuntos estavam a obra Menino de Engenho, de José Lins do Rego, o Estatuto da Criança e do Adolescente no ambiente digital e os impactos da inteligência artificial. A avaliação reforçou a importância da interpretação textual e da capacidade de compreender diferentes formas de comunicação.',
+    dataPublicacao: new Date('2026-11-08'),
+    urlImagem: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200',
+    urlFonte: 'https://www.cnnbrasil.com.br/educacao/enem-2026-prova-de-linguagens-tem-classicos-literarios-ia-e-temas-sociais/'
+  },
+  {
+     // Notícia 13
+    titulo: 'Estudo aponta aumento no número de estudantes que leem livros',
+    resumo: 'Pesquisa realizada em escolas brasileiras identificou avanços no hábito de leitura entre estudantes.',
+    conteudo: 'Um estudo realizado em 264 escolas brasileiras identificou mudanças positivas nos hábitos de leitura dos estudantes entre 2022 e 2026. A pesquisa apontou aumento na quantidade de alunos que concluíram livros espontaneamente e passaram a demonstrar interesse por obras mais complexas. Também foram observados avanços no tempo dedicado à leitura. O resultado mostra a importância dos projetos escolares e do incentivo à literatura na formação de novos leitores.',
+    dataPublicacao: new Date('2026-10-16'),
+    urlImagem: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200',
+    urlFonte: 'https://www.cnnbrasil.com.br/educacao/numero-de-estudantes-que-nao-tinham-lido-nenhum-livro-caiu-25-em-2026/'
+  },
+  {
+     // Notícia 14
+    titulo: 'Bienal do Livro de São Paulo registra público recorde',
+    resumo: 'Evento literário reúne centenas de milhares de pessoas e demonstra a força do mercado editorial brasileiro.',
+    conteudo: 'A 28ª Bienal Internacional do Livro de São Paulo encerrou sua edição de 2026 com aproximadamente 760 mil visitantes. O evento reuniu leitores, escritores, editoras e profissionais do setor literário. A programação contou com lançamentos, encontros com autores e atividades culturais. O resultado chama atenção porque acontece em um período em que pesquisas apontam dificuldades para manter o hábito de leitura no Brasil.',
+    dataPublicacao: new Date('2026-09-15'),
+    urlImagem: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200',
+    urlFonte: 'https://www.al.sp.gov.br/noticia/?id=515047'
+  },
+  {
+     // Notícia 15
+    titulo: 'Escritores destacam a importância dos professores na formação de leitores',
+    resumo: 'Encontros realizados durante a Bienal aproximaram escritores e educadores para discutir a formação de leitores.',
+    conteudo: 'Durante a 28ª Bienal Internacional do Livro de São Paulo, escritores participaram de encontros com professores da rede municipal de ensino. As atividades destacaram a importância dos educadores na apresentação de obras literárias e no desenvolvimento do interesse dos estudantes pelos livros. A iniciativa também reforçou o papel das bibliotecas escolares e dos projetos de leitura na educação.',
+    dataPublicacao: new Date('2026-09-10'),
+    urlImagem: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200',
+    urlFonte: 'https://educacao.sme.prefeitura.sp.gov.br/noticias/escritores-destacam-papel-dos-professores-na-formacao-de-leitores/'
+  }
 ];
 
 const videos = [
