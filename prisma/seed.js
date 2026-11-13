@@ -271,275 +271,227 @@ const questoes = [
     // Questão 5
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 6
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 7
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 8
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 9
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 10
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 11
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 12
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 13
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 14
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 15
     {
         enunciado: '',
-        alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
-        ],
+        alternativas: ['', '', '', '', ''],
         respostaCorreta: '',
         explicacao: '',
     },
     // Questão 16
     {
-        enunciado: '',
+        enunciado:
+            'Em "Vidas Secas", de Graciliano Ramos, a cachorra Baleia ocupa um lugar central no enredo. A cena de sua morte é considerada uma das mais marcantes do romance porque:',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) revela, por meio de um narrador onisciente, a capacidade do animal de refletir de forma articulada sobre a morte, o que contrasta com a incapacidade verbal dos personagens humanos.',
+            'B) simboliza o triunfo da natureza sobre a civilização, já que a morte de Baleia marca o fim da seca e o início de uma fase próspera para a família.',
+            'C) representa o rompimento definitivo entre Fabiano e Sinhá Vitória, que passam a culpar um ao outro pela necessidade de sacrificar o animal.',
+            'D) humaniza o animal ao dar-lhe sonhos e esperanças, o que o aproxima da condição dos retirantes e evidencia a desumanização a que a família é submetida.',
+            'E) expressa o otimismo do autor em relação ao sertão, pois Baleia, mesmo ferida, consegue guiar a família até uma região fértil.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'D',
+        explicacao:
+            'Em Vidas Secas, Baleia sonha com preás e com um mundo cheio deles antes de morrer, e é a personagem com a vida interior mais rica. Os humanos, por sua vez, são "animalizados" pela miséria e quase não conseguem se comunicar. A inversão entre humanização do bicho e animalização das pessoas é o grande recurso crítico do romance.',
     },
     // Questão 17
     {
-        enunciado: '',
+        enunciado:
+            'Leia o trecho: "O ônibus lotado seguia devagar, e a cidade, indiferente, engolia seus passageiros como quem não sente o gosto do que come." As figuras de linguagem predominantes nesse trecho são, respectivamente:',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) personificação e comparação.',
+            'B) metáfora e antítese.',
+            'C) hipérbole e eufemismo.',
+            'D) ironia e paradoxo.',
+            'E) metonímia e pleonasmo.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'A',
+        explicacao:
+            'Atribuir à cidade ações e sentimentos humanos (ser indiferente, engolir) é personificação (prosopopeia). A expressão "como quem não sente o gosto do que come" introduz um termo comparativo explícito ("como"), caracterizando uma comparação.',
     },
     // Questão 18
     {
-        enunciado: '',
+        enunciado:
+            'Assinale a alternativa em que a vírgula está empregada de acordo com a norma-padrão.',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) Os alunos que estudaram, foram aprovados, os outros, não.',
+            'B) Quando chegou a noite a cidade, finalmente, silenciou.',
+            'C) O professor explicou, que a prova seria adiada.',
+            'D) Maria, e João, saíram cedo da escola.',
+            'E) Machado de Assis, autor de "Dom Casmurro", é considerado o maior nome do Realismo brasileiro.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'E',
+        explicacao:
+            'A expressão "autor de Dom Casmurro" é um aposto explicativo e deve vir isolada por vírgulas. Nas demais alternativas há erros: vírgula entre verbo e complemento (C), vírgula separando sujeito composto ligado por "e" (D), ausência de vírgula após a oração adverbial deslocada (B) e pontuação inadequada (A).',
     },
     // Questão 19
     {
-        enunciado: '',
+        enunciado:
+            'A Semana de Arte Moderna de 1922 é um marco do Modernismo brasileiro. Entre as principais propostas da chamada "primeira fase" do movimento, destaca-se:',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) a valorização rigorosa da métrica e da rima, como forma de preservar a tradição parnasiana.',
+            'B) o retorno ao espiritualismo e ao subjetivismo exacerbado típicos do Romantismo.',
+            'C) a ruptura com os padrões estéticos tradicionais, o uso do verso livre e a valorização de uma linguagem mais próxima da fala brasileira.',
+            'D) a imitação dos modelos clássicos europeus como caminho para elevar a literatura nacional.',
+            'E) a defesa de uma literatura exclusivamente voltada para a denúncia da seca no Nordeste.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'C',
+        explicacao:
+            'A primeira fase modernista (1922-1930) foi marcada pelo espírito de ruptura, pela liberdade formal (verso livre, ausência de rima obrigatória), pelo humor e pela busca de uma identidade nacional, inclusive na linguagem. A denúncia social do Nordeste é característica da segunda fase (Romance de 30).',
     },
     // Questão 20
     {
-        enunciado: '',
+        enunciado:
+            'Em "Os meninos que acabaram de chegar foram recebidos pela diretora", a oração destacada em "que acabaram de chegar" classifica-se como:',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) oração subordinada substantiva objetiva direta.',
+            'B) oração subordinada adjetiva restritiva.',
+            'C) oração subordinada adverbial temporal.',
+            'D) oração subordinada adjetiva explicativa.',
+            'E) oração coordenada sindética explicativa.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'B',
+        explicacao:
+            'O "que" é pronome relativo e retoma "meninos", funcionando como adjetivo desse substantivo. Como a oração restringe o sentido do antecedente (apenas os meninos que acabaram de chegar, e não todos), não vem separada por vírgulas e é restritiva.',
     },
     // Questão 21
     {
-        enunciado: '',
+        enunciado:
+            'Considere o poema "No meio do caminho", de Carlos Drummond de Andrade, em que a expressão "tinha uma pedra no meio do caminho" é repetida diversas vezes. Esse recurso, somado à linguagem simples e prosaica, produz principalmente o efeito de:',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) enfatizar a obsessão do eu lírico com um obstáculo que se fixa na memória e se torna marcante, quebrando a expectativa do leitor por um lirismo tradicional.',
+            'B) descrever de forma objetiva um fato corriqueiro, sem qualquer valor simbólico.',
+            'C) demonstrar o domínio das formas fixas, como o soneto, por meio de um padrão rígido de rimas.',
+            'D) criar um tom épico, exaltando a superação de dificuldades pelo herói.',
+            'E) reproduzir o estilo parnasiano, caracterizado pelo vocabulário rebuscado.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'A',
+        explicacao:
+            'A repetição insistente cria efeito de ruminação, de um acontecimento que não sai da mente. A linguagem coloquial e a ausência de rebuscamento são marcas do Modernismo e provocaram escândalo na época da publicação, justamente por romperem com o "poético" convencional.',
     },
     // Questão 22
     {
-        enunciado: '',
+        enunciado: 'Assinale a alternativa em que o uso da crase está CORRETO.',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) Fui à pé até a escola.',
+            'B) Entreguei o trabalho à ela ontem.',
+            'C) O curso começará à partir de segunda-feira.',
+            'D) Referiu-se à moça que estava na porta.',
+            'E) Não obedeço à ordens injustas.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'D',
+        explicacao:
+            'O verbo "referir-se" exige a preposição "a" e o substantivo "moça" admite o artigo "a", resultando em "à". Nas demais: não há crase antes de palavra masculina (à pé), antes de pronome pessoal (à ela), em locuções com verbo (à partir) nem antes de palavra no plural sem artigo (à ordens).',
     },
     // Questão 23
     {
-        enunciado: '',
+        enunciado:
+            'Em "Memórias Póstumas de Brás Cubas", de Machado de Assis, o narrador é um defunto-autor que relata sua vida depois de morto. Essa escolha narrativa contribui para a obra porque:',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) permite ao narrador adotar um tom sentimental e idealizado, típico do Romantismo.',
+            'B) garante a neutralidade e a objetividade absolutas, características do Naturalismo científico.',
+            'C) reforça o caráter heroico do protagonista, que supera a própria morte por meio da literatura.',
+            'D) permite ao leitor acompanhar a narrativa em ordem cronológica rigorosa, do nascimento à morte.',
+            'E) libera o narrador dos compromissos sociais, possibilitando uma análise irônica, cínica e distanciada da sociedade e de si mesmo.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'E',
+        explicacao:
+            'Brás Cubas, já morto, não tem mais nada a perder e pode expor sem pudor as hipocrisias, vaidades e interesses da elite carioca do século XIX. O romance rompe com a linearidade, usa digressões e dialoga diretamente com o leitor, marcas do Realismo machadiano.',
     },
     // Questão 24
     {
-        enunciado: '',
+        enunciado: 'Em qual alternativa a concordância verbal está de acordo com a norma-padrão?',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) Fazem dois anos que me formei no ensino médio.',
+            'B) Devem existir soluções para esse problema.',
+            'C) Haviam muitos candidatos na fila do vestibular.',
+            'D) Bateu três horas quando o professor chegou.',
+            'E) Os Estados Unidos é um país de grande extensão territorial.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'B',
+        explicacao:
+            'Em locução verbal, o verbo auxiliar concorda com o sujeito: o verbo "existir" é pessoal e seu sujeito é "soluções" (plural), logo "devem existir". Nas demais: "faz dois anos" e "havia muitos" (verbos impessoais ficam no singular), "bateram três horas" (o verbo concorda com o número de horas) e "Os Estados Unidos são" (nome próprio plural com artigo).',
     },
     // Questão 25
     {
-        enunciado: '',
+        enunciado:
+            'Leia o trecho: "A tecnologia aproxima quem está longe, mas distancia quem está perto." Essa construção apresenta, predominantemente, a figura de linguagem denominada:',
         alternativas: [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'A) eufemismo, pois suaviza uma ideia desagradável.',
+            'B) catacrese, pois utiliza um termo por falta de outro mais adequado.',
+            'C) antítese, pois aproxima termos de sentidos opostos (longe/perto, aproxima/distancia).',
+            'D) metonímia, pois substitui o todo por uma de suas partes.',
+            'E) onomatopeia, pois reproduz sons por meio de palavras.',
         ],
-        respostaCorreta: '',
-        explicacao: '',
+        respostaCorreta: 'C',
+        explicacao:
+            'A antítese consiste na oposição de ideias ou palavras de sentidos contrários no mesmo enunciado. Aqui aparecem dois pares: "aproxima" x "distancia" e "longe" x "perto". Não confundir com paradoxo, que cria uma contradição aparente de ideias, e não só de palavras.',
     },
 ];
 
