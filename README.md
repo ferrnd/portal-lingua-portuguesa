@@ -12,13 +12,13 @@ prisma/
 └── seed.js                     # Dados iniciais
 prisma.config.js                # Configuração do Prisma
 src/
-├── app/api/exemplos/
+├── app/api/noticias/
 │   ├── route.js                # GET (todos) e POST
 │   └── [id]/route.js           # GET (por id), PUT e DELETE
 ├── controllers/
-│   └── exemploController.js    # Validações e respostas
+│   └── noticiaController.js    # Validações e respostas
 ├── models/
-│   └── ExemploModel.js         # Acesso ao banco com o Prisma
+│   └── NoticiaModel.js         # Acesso ao banco com o Prisma
 └── lib/services/
     └── prismaClient.js         # Conexão com o PostgreSQL
 ```
@@ -29,11 +29,16 @@ O fluxo segue as camadas **Rota → Controller → Model**.
 
 | Método | Rota | O que faz |
 | ------ | ---- | --------- |
-| GET | `/api/exemplos` | Lista os registros (aceita filtros por query, ex.: `?nome=alpha`) |
-| GET | `/api/exemplos/:id` | Busca um registro pelo id |
-| POST | `/api/exemplos` | Cria um registro |
-| PUT | `/api/exemplos/:id` | Atualiza um registro |
-| DELETE | `/api/exemplos/:id` | Exclui um registro |
+| GET | `/api/noticias` | Lista as notícias (aceita filtro por título, ex.: `?titulo=enem`) |
+| GET | `/api/noticias/:id` | Busca uma notícia pelo id |
+| POST | `/api/noticias` | Cria uma notícia |
+| PUT | `/api/noticias/:id` | Atualiza uma notícia |
+| DELETE | `/api/noticias/:id` | Exclui uma notícia |
+| GET | `/api/questoes` | Lista as questões do simulado |
+| GET | `/api/questoes/:id` | Busca uma questão pelo id |
+| POST | `/api/questoes` | Cria uma questão (5 alternativas e resposta de A a E) |
+| PUT | `/api/questoes/:id` | Atualiza uma questão |
+| DELETE | `/api/questoes/:id` | Exclui uma questão |
 
 # 1. Instalar dependências
 - npm i
