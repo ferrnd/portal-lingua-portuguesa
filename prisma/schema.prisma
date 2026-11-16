@@ -6,15 +6,6 @@ datasource db {
     provider = "postgresql"
 }
 
-model Exemplo {
-    id        Int      @id @default(autoincrement())
-    nome      String
-    estado    Boolean  @default(true)
-    preco     Decimal? @db.Decimal(10, 2)
-
-    @@map("exemplo")
-}
-
 model Noticia {
     id             Int      @id @default(autoincrement())
     titulo         String
