@@ -80,3 +80,24 @@ O fluxo segue as camadas **Rota → Controller → Model**.
 ## Clonou repositório e não existe o banco em seu PC?
 - npm i
 - Siga os passos 2, 4 e 5
+
+## Créditos das imagens
+As fotos das notícias ficam em `public/noticias/`. Nas fotos com pessoas, os rostos e os nomes foram borrados.
+
+| Notícia | Arquivo | Crédito | Licença |
+| ------- | ------- | ------- | ------- |
+| 1 | `analfabetismo-ibge.webp` | Geovana Albuquerque/Agência Brasília | CC BY 2.0 |
+| 2 | `enem-2026-cadernos.webp` | Bruna Araújo/MEC | Uso com crédito |
+| 3 | `jabuti-cerimonia.webp` | Sintegrity/Wikimedia Commons | CC BY-SA 4.0 |
+| 4 | `theatro-da-paz-belem.webp` | Prburley/Wikimedia Commons | CC BY 4.0 |
+| 5 | `parede-de-livros.webp` | Robert Anasch/Unsplash | Licença Unsplash |
+| 6 | `monumento-camoes.webp` | Vitor Oliveira/Wikimedia Commons | CC BY-SA 2.0 |
+| 7 | `livros-mortatti.webp` | Jornal da Unesp | Uso com crédito |
+| 8 | `estacao-vila-das-belezas.webp` | Geogast/Wikimedia Commons | CC BY 4.0 |
+| 9 | `feira-de-santana.webp` | Ricardo Patrese Soares Lima/Wikimedia Commons | CC BY-SA 4.0 |
+| 10 | `mapa-brasil.webp` | Jornal da USP | Uso com crédito |
+| 11 | `araraquara.webp` | Yuri Sabino/Wikimedia Commons | Domínio público |
+| 12 | `enem-2026-linguagens.webp` | Bruna Araújo/MEC (recorte) | Uso com crédito |
+| 13 | `placa-machado-de-assis.webp` | Jonathan Borba/Pexels | Licença Pexels |
+| 14 | `bienal-livro-sp-2026.webp` | Alesp (rostos borrados) | Uso com crédito |
+| 15 | `formacao-de-leitores.webp` | SME/Prefeitura de São Paulo (rostos e nomes borrados) | Uso com crédito |
