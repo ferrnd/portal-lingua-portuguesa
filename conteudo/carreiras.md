@@ -1,12 +1,12 @@
-# 🗣️ Profissões em que o Português é a Ferramenta Principal
+# Carreiras: profissões em que o português é a ferramenta principal
 
 Este guia detalha as principais carreiras para quem deseja trabalhar tendo a Língua Portuguesa como base fundamental. Abaixo, você encontra o panorama de cada área, incluindo atribuições, mercado de trabalho, requisitos de formação e médias salariais.
 
 ---
 
-## 📊 Tabela de Visão Geral
+## Visão geral
 
-| Profissão | Média Salarial (Nacional) | Formação Principal Valorizada |
+| Profissão | Média salarial aproximada (nacional) | Formação Principal Valorizada |
 | :--- | :--- | :--- |
 | **Professor de Português** | R$ 4.528,00 a R$ 5.130,63 | Licenciatura em Letras |
 | **Revisor de Textos** | R$ 3.097,00 | Letras, Jornalismo ou Comunicação |
@@ -19,7 +19,7 @@ Este guia detalha as principais carreiras para quem deseja trabalhar tendo a Lí
 
 ---
 
-## 📖 Detalhamento das Carreiras
+## As carreiras em detalhe
 
 ### 1. Professor de Língua Portuguesa
 O profissional da educação atua tanto na prática pedagógica diária quanto no planejamento educacional profundo.
@@ -77,3 +77,20 @@ O cientista da linguagem, focado em entender como nos comunicamos e como os idio
 * **Faixa Salarial (CLT):**
   * **Linguista:** Média de R$ 4.417,00.
   * **Pesquisador (Humanas):** Média de R$ 4.545,00, podendo ultrapassar R$ 10.000,00 em cargos seniores ou universidades federais.
+
+---
+
+## Como começar ainda no ensino médio
+
+Não é preciso esperar a faculdade para se preparar. Ler com frequência, de livros a reportagens, amplia o vocabulário e ajuda a escrever melhor. Escrever todos os dias, mesmo textos curtos, e pedir que alguém revise também faz diferença.
+
+Outras formas de começar são participar da Olimpíada de Língua Portuguesa e de concursos de redação, colaborar com o jornal ou as redes sociais da escola e treinar redação no modelo do Enem, que é cobrada em muitos processos seletivos.
+
+---
+
+## Fontes dos salários
+
+- **Professor da rede pública:** piso nacional do magistério de 2026 (R$ 5.130,63 para 40 horas semanais), definido pela Lei nº 15.437/2026.
+- **Demais profissões:** médias aproximadas do site Salario.com.br, que usa dados do Novo Caged, do Ministério do Trabalho. Consulta em novembro de 2026.
+
+Os valores mudam todos os meses e variam bastante conforme a cidade, a empresa e a experiência. Use-os apenas como referência.
