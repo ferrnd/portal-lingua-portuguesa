@@ -49,7 +49,7 @@ export default class NoticiaModel {
             where.titulo = { contains: filtros.titulo, mode: 'insensitive' };
         }
 
-        return prisma.noticia.findMany({ where });
+        return prisma.noticia.findMany({ where, orderBy: { dataPublicacao: 'desc' } });
     }
 
     static async buscarPorId(id) {
