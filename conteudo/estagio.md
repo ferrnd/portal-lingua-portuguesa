@@ -1,5 +1,4 @@
-# DOCUMENTAÇÃO
-# ESTÁGIO: LEGISLAÇÃO, OPORTUNIDADES E PREPARAÇÃO PROFISSIONAL
+# Estágio: legislação, oportunidades e preparação profissional
 
 **Tema:** Estágio e inserção no mercado de trabalho  
 **Área de conhecimento:** Língua Portuguesa e Comunicação  
