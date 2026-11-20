@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { exigirLogin } from '../lib/services/autenticacao.js';
 import QuestaoModel from '../models/QuestaoModel.js';
 
 async function lerCorpo(request) {
@@ -17,6 +18,11 @@ function alternativasValidas(alternativas) {
 
 export const criar = async (request) => {
     try {
+        const naoLogado = await exigirLogin();
+        if (naoLogado) {
+            return naoLogado;
+        }
+
         const body = await lerCorpo(request);
 
         if (!body) {
@@ -86,6 +92,11 @@ export const buscarPorId = async (request, id) => {
 
 export const atualizar = async (request, id) => {
     try {
+        const naoLogado = await exigirLogin();
+        if (naoLogado) {
+            return naoLogado;
+        }
+
         if (isNaN(id)) {
             return NextResponse.json({ error: 'ID inválido.' }, { status: 400 });
         }
@@ -133,6 +144,11 @@ export const atualizar = async (request, id) => {
 
 export const deletar = async (request, id) => {
     try {
+        const naoLogado = await exigirLogin();
+        if (naoLogado) {
+            return naoLogado;
+        }
+
         if (isNaN(id)) {
             return NextResponse.json({ error: 'ID inválido.' }, { status: 400 });
         }
