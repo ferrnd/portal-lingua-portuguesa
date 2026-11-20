@@ -1,0 +1,9 @@
+.pagina {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem 3rem;
+}
+
+.pagina h1 {
+    margin-bottom: 1rem;
+}
