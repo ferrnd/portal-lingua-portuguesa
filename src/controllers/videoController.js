@@ -10,7 +10,6 @@ async function lerCorpo(request) {
     }
 }
 
-// O id de um vídeo do YouTube tem 11 caracteres: letras, números, "-" e "_".
 const youtubeIdValido = (youtubeId) => /^[A-Za-z0-9_-]{11}$/.test(String(youtubeId ?? ''));
 
 export const criar = async (request) => {
