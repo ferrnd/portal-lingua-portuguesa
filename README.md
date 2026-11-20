@@ -39,6 +39,11 @@ O fluxo segue as camadas **Rota → Controller → Model**.
 | POST | `/api/questoes` | Cria uma questão (5 alternativas e resposta de A a E) |
 | PUT | `/api/questoes/:id` | Atualiza uma questão |
 | DELETE | `/api/questoes/:id` | Exclui uma questão |
+| GET | `/api/videos` | Lista os vídeos (aceita filtro por título, ex.: `?titulo=crase`) |
+| GET | `/api/videos/:id` | Busca um vídeo pelo id |
+| POST | `/api/videos` | Cria um vídeo (o `youtubeId` tem 11 caracteres) |
+| PUT | `/api/videos/:id` | Atualiza um vídeo |
+| DELETE | `/api/videos/:id` | Exclui um vídeo |
 
 # 1. Instalar dependências
 - npm i
