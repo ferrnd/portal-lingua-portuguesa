@@ -19,7 +19,7 @@ const noticias = {
         { nome: 'resumo', rotulo: 'Resumo', tipo: 'texto-longo', linhas: 2 },
         { nome: 'conteudo', rotulo: 'Texto da notícia (um parágrafo por linha)', tipo: 'texto-longo', linhas: 8 },
         { nome: 'dataPublicacao', rotulo: 'Data de publicação', tipo: 'data' },
-        { nome: 'urlImagem', rotulo: 'Imagem (ex.: /noticias/arquivo.webp)' },
+        { nome: 'urlImagem', rotulo: 'Link da imagem (começando com https://)' },
         { nome: 'urlFonte', rotulo: 'Link da reportagem original', opcional: true },
     ],
     paraFormulario: (n) => ({ ...n, dataPublicacao: n.dataPublicacao.slice(0, 10) }),

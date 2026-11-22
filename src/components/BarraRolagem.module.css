@@ -1,0 +1,27 @@
+.trilho {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 14px;
+    pointer-events: none;
+}
+
+.barra {
+    position: absolute;
+    right: 3px;
+    width: 7px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #0091ca 0%, #0091ca 33%, #6f8108 33%, #6f8108 66%, #be2110 66%, #be2110 100%);
+    opacity: 0.75;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: width 0.15s, opacity 0.15s;
+}
+
+.barra:hover,
+.barra:active {
+    width: 10px;
+    opacity: 1;
+}

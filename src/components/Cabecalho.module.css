@@ -1,0 +1,21 @@
+.cabecalho {
+    background: #ffffff;
+}
+
+.banner {
+    position: relative;
+}
+
+.imagem {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    left: 16.0%;
+    top: 37.2%;
+    width: 15.35%;
+    height: 25.6%;
+}
