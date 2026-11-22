@@ -40,6 +40,9 @@ export const criar = async (request) => {
         if (!urlImagem) {
             return NextResponse.json({ error: 'O campo "urlImagem" é obrigatório!' }, { status: 400 });
         }
+        if (!urlImagem.startsWith('https://')) {
+            return NextResponse.json({ error: 'O campo "urlImagem" deve ser um link começando com https://' }, { status: 400 });
+        }
 
         const noticia = new NoticiaModel({
             titulo,
@@ -130,6 +133,9 @@ export const atualizar = async (request, id) => {
             noticia.dataPublicacao = new Date(body.dataPublicacao);
         }
         if (body.urlImagem !== undefined) {
+            if (!String(body.urlImagem).startsWith('https://')) {
+                return NextResponse.json({ error: 'O campo "urlImagem" deve ser um link começando com https://' }, { status: 400 });
+            }
             noticia.urlImagem = body.urlImagem;
         }
         if (body.urlFonte !== undefined) {
