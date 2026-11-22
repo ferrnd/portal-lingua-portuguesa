@@ -20,7 +20,7 @@ export default function Home() {
                                 <ClipboardCheck size={26} />
                             </span>
                             <h3>Simulado</h3>
-                            <p>Questões de vestibulares como Enem, Fuvest e Unicamp, com a correção na hora.</p>
+                            <p>Questões de vestibulares como Enem, Fuvest e Unicamp, com correção e explicação de cada resposta.</p>
                             <div className={styles.numeros}>
                                 <div>
                                     <strong>25</strong>

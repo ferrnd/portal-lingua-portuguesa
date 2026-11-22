@@ -43,7 +43,7 @@
     display: block;
     width: 100%;
     margin-bottom: 28px;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .conteudo p {
@@ -59,11 +59,14 @@
     gap: 8px;
     margin-top: 12px;
     padding: 12px 22px;
-    border-radius: 999px;
+    border-radius: 6px;
     background: #0352af;
     color: #ffffff;
     font-weight: 600;
     text-decoration: none;
+    background-image: url('/textura.webp');
+    background-size: 420px;
+    background-blend-mode: multiply;
 }
 
 .fonte:hover {

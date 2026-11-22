@@ -12,8 +12,8 @@ export default function Sobre() {
                     <p>
                         O Letrar é o Portal de Língua Portuguesa criado pelo <strong>Grupo 4</strong> do curso Técnico em
                         Desenvolvimento de Sistemas do <strong>SENAI Valinhos</strong>, como Projeto Integrador final do
-                        curso. A proposta é reunir, em um só lugar, materiais que ajudem os estudantes a ler, escrever e
-                        interpretar textos com mais confiança.
+                        curso. O portal reúne notícias, videoaulas, dicas e um simulado de Língua Portuguesa para apoiar
+                        o estudo de leitura, escrita e interpretação de texto.
                     </p>
                 </section>
 

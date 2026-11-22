@@ -39,10 +39,13 @@
     gap: 10px;
     padding: 24px;
     border: 1px solid #e3e8f2;
-    border-radius: 16px;
-    background: linear-gradient(180deg, #eaf2ff 0%, #ffffff 80%);
-    box-shadow: 0 4px 14px rgba(3, 82, 175, 0.08);
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
     color: #0352af;
+    background-image: url('/textura.webp');
+    background-size: 420px;
+    background-blend-mode: multiply;
 }
 
 .cartao h2 {
@@ -71,8 +74,12 @@
     gap: 10px;
     padding: 20px;
     border: 1px solid #e3e8f2;
-    border-radius: 14px;
+    border-radius: 6px;
     color: #0352af;
+    background-color: #ffffff;
+    background-image: url('/textura.webp');
+    background-size: 420px;
+    background-blend-mode: multiply;
 }
 
 .recurso span {
@@ -93,9 +100,12 @@
     justify-content: space-between;
     gap: 16px;
     padding: 24px 28px;
-    border-radius: 16px;
+    border-radius: 8px;
     background: #0352af;
     color: #ffffff;
+    background-image: url('/textura.webp');
+    background-size: 420px;
+    background-blend-mode: multiply;
 }
 
 .integrador p {
@@ -105,11 +115,14 @@
 
 .integrador a {
     padding: 12px 20px;
-    border-radius: 999px;
+    border-radius: 6px;
     background: #ffffff;
     color: #0352af;
     font-weight: 600;
     text-decoration: none;
+    background-image: url('/textura.webp');
+    background-size: 420px;
+    background-blend-mode: multiply;
 }
 
 @media (max-width: 800px) {

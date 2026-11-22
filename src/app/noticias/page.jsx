@@ -9,8 +9,7 @@ export default function PaginaNoticias() {
             <main className={styles.pagina}>
                 <h1>Notícias</h1>
                 <p className={styles.introducao}>
-                    O que está acontecendo com a língua portuguesa: leitura, educação, literatura, vestibulares e muito
-                    mais.
+                    Notícias sobre leitura, educação, literatura e vestibulares, com o link para a reportagem original.
                 </p>
                 <Noticias />
             </main>
