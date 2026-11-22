@@ -25,3 +25,9 @@
     width: 10px;
     opacity: 1;
 }
+
+@media (max-width: 768px), (pointer: coarse) {
+    .trilho {
+        display: none;
+    }
+}
