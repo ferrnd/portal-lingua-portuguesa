@@ -7,16 +7,19 @@
 .card {
     overflow: hidden;
     border: 1px solid #e3e8f2;
-    border-radius: 16px;
+    border-radius: 8px;
     background: #ffffff;
-    box-shadow: 0 4px 14px rgba(3, 82, 175, 0.08);
+    box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
     color: inherit;
     text-decoration: none;
     transition: transform 0.15s;
+    background-image: url('/textura.webp');
+    background-size: 420px;
+    background-blend-mode: multiply;
 }
 
 .card:hover {
-    transform: translateY(-3px);
+    border-color: #c9d6ee;
 }
 
 .imagem {
