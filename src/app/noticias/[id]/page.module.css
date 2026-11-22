@@ -1,0 +1,77 @@
+.pagina {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 32px 20px 64px;
+}
+
+.voltar {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 24px;
+    color: #0352af;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+.data {
+    color: #6b7080;
+    font-size: 0.95rem;
+}
+
+.noticia h1 {
+    margin: 8px 0 14px;
+    color: #0352af;
+    font-family: var(--font-geist-sans), Arial, sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.resumo {
+    margin-bottom: 24px;
+    color: #44475a;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.imagem {
+    display: block;
+    width: 100%;
+    margin-bottom: 28px;
+    border-radius: 16px;
+}
+
+.conteudo p {
+    margin-bottom: 18px;
+    color: #2b2d3a;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.fonte {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 12px 22px;
+    border-radius: 999px;
+    background: #0352af;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.fonte:hover {
+    background: #02418a;
+}
+
+@media (max-width: 600px) {
+    .noticia h1 {
+        font-size: 1.6rem;
+    }
+}

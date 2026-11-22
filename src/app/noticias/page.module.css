@@ -1,0 +1,21 @@
+.pagina {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 40px 20px 64px;
+}
+
+.pagina h1 {
+    margin-bottom: 10px;
+    color: #0352af;
+    font-family: var(--font-geist-sans), Arial, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.introducao {
+    max-width: 640px;
+    margin-bottom: 32px;
+    color: #44475a;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}

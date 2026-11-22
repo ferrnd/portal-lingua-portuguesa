@@ -1,7 +1,7 @@
-import { Suspense } from "react";
-import { ClerkProvider, Show, SignInButton, UserButton } from "@clerk/nextjs";
-import { Geist, Geist_Mono } from "next/font/google";
-import styles from "./layout.module.css";
+import { ClerkProvider } from "@clerk/nextjs";
+import { Geist, Geist_Mono, Libre_Baskerville } from "next/font/google";
+import Rodape from "@/components/Rodape";
+import BarraRolagem from "@/components/BarraRolagem";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,6 +14,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-letrar",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
 export const metadata = {
   title: "Portal de Língua Portuguesa",
   description: "Notícias, vídeos e simulado de Língua Portuguesa.",
@@ -21,22 +27,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} ${libreBaskerville.variable}`}>
       <body>
         <ClerkProvider>
-          <header className={styles.topo}>
-            <Suspense>
-              <Show when="signed-out">
-                <SignInButton>
-                  <button className={styles.entrar}>Entrar</button>
-                </SignInButton>
-              </Show>
-              <Show when="signed-in">
-                <UserButton />
-              </Show>
-            </Suspense>
-          </header>
           {children}
+          <Rodape />
+          <BarraRolagem />
         </ClerkProvider>
       </body>
     </html>
