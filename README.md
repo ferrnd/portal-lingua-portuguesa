@@ -92,7 +92,7 @@ O fluxo segue as camadas **Rota → Controller → Model**.
 - Siga os passos 2, 4 e 5
 
 ## Créditos das imagens
-As fotos das notícias ficam em `public/noticias/`. Nas fotos com pessoas, os rostos e os nomes foram borrados.
+As notícias usam a imagem por link externo, como pede o projeto. Sempre que possível, o link aponta para a fonte original (Wikimedia Commons, MEC, Jornal da Unesp, Jornal da USP, Pexels). As fotos que editamos, ou que não têm link original disponível, ficam em `public/noticias/` e são usadas pelo link raw do GitHub. Nas fotos com pessoas, os rostos e os nomes foram borrados.
 
 | Notícia | Arquivo | Crédito | Licença |
 | ------- | ------- | ------- | ------- |
