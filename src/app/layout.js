@@ -1,33 +1,31 @@
+import { Suspense } from "react";
 import { ClerkProvider } from "@clerk/nextjs";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Manrope } from "next/font/google";
+import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
-import BarraRolagem from "@/components/BarraRolagem";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 
 export const metadata = {
-  title: "Portal de Língua Portuguesa",
-  description: "Notícias, vídeos e simulado de Língua Portuguesa.",
+  title: "Vocábulo · Portal de Língua Portuguesa",
+  description: "Notícias, dicas de estudo, carreiras e simulado de Língua Portuguesa.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="pt-BR" className={manrope.variable}>
       <body>
         <ClerkProvider>
+          <Suspense>
+            <Cabecalho />
+          </Suspense>
           {children}
           <Rodape />
-          <BarraRolagem />
         </ClerkProvider>
       </body>
     </html>
