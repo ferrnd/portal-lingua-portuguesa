@@ -1,21 +1,138 @@
+/* Cabeçalho branco: nome à esquerda, menu no meio e Painel à direita */
 .cabecalho {
-    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    border-bottom: 1px solid var(--borda);
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
 }
 
-.banner {
+.conteudo {
     position: relative;
-}
-
-.imagem {
-    display: block;
-    width: 100%;
-    height: auto;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 16px;
+    height: 68px;
 }
 
 .logo {
-    position: absolute;
-    left: 16.0%;
-    top: 37.2%;
-    width: 15.35%;
-    height: 25.6%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0b1220;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.icone {
+    width: 34px;
+    height: 34px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.link,
+.ativo {
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.link {
+    color: var(--cinza);
+}
+
+.link:hover {
+    color: #0b1220;
+}
+
+.ativo {
+    background: #eef1f4;
+    color: #0b1220;
+    font-weight: 600;
+}
+
+.painel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-self: end;
+    padding: 8px 18px;
+    border: 1px solid #c9ced6;
+    border-radius: 10px;
+    color: #0b1220;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Botão de contorno: discreto, porque o Painel é só para a equipe */
+.painel:hover {
+    border-color: var(--azul-escuro);
+    color: var(--azul-escuro);
+}
+
+.painelCelular,
+.botaoMenu,
+.aberto {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .conteudo {
+        grid-template-columns: 1fr auto;
+    }
+
+    .nav,
+    .painel {
+        display: none;
+    }
+
+    .botaoMenu {
+        display: flex;
+        padding: 6px;
+        border: none;
+        background: none;
+        color: #0b1220;
+    }
+
+    .aberto {
+        position: absolute;
+        top: 100%;
+        right: 16px;
+        left: 16px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid var(--borda);
+        border-radius: 14px;
+        background: var(--branco);
+        box-shadow: 0 12px 32px rgba(11, 18, 32, 0.12);
+    }
+
+    .aberto .link,
+    .aberto .ativo {
+        padding: 11px 14px;
+        border-radius: 8px;
+    }
+
+    .aberto .painelCelular {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 8px;
+        padding: 11px;
+        border-radius: 10px;
+        background: var(--azul-escuro);
+        color: var(--branco);
+        font-weight: 600;
+        text-align: center;
+    }
 }

@@ -1,0 +1,32 @@
+/* Faixa escura no topo das páginas internas */
+.faixa {
+    margin: 12px 12px 0;
+    padding: 56px 0 56px;
+    border-radius: 12px;
+    background: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.faixa h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+}
+
+.faixa p {
+    max-width: 620px;
+    margin-top: 10px;
+    color: #c5d3ee;
+    font-size: 1.05rem;
+}
+
+@media (max-width: 600px) {
+    .faixa {
+        padding: 40px 0 36px;
+    }
+
+    .faixa h1 {
+        font-size: 2.1rem;
+    }
+}
