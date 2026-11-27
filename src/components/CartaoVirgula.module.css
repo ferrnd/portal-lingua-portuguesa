@@ -1,0 +1,59 @@
+/* Cartão com a textura de parede (a mesma da versão antiga dos botões e cards) */
+.caderno {
+    padding: 32px;
+    border-radius: 12px;
+    background-color: var(--branco);
+    background-image: url('/textura.webp');
+    background-size: 420px;
+    background-blend-mode: multiply;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    color: var(--texto);
+}
+
+.topo {
+    color: var(--salvia-escuro);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.frase {
+    margin: 16px 0 10px;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.frase span {
+    color: #0b1220;
+}
+
+.explicacao {
+    min-height: 3em;
+    color: var(--cinza);
+    font-size: 0.95rem;
+}
+
+.botao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #2a3242;
+    color: var(--branco);
+    font-weight: 700;
+}
+
+/* Cinza-escuro que fica preto no hover (diferente do azul do "Fazer o simulado") */
+.botao:hover {
+    background: #0b1220;
+}
+
+@media (max-width: 600px) {
+    .caderno {
+        padding: 24px;
+    }
+
+    .frase {
+        font-size: 1.6rem;
+    }
+}
