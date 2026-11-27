@@ -47,6 +47,8 @@ Por isso, nossa proposta é desenvolver uma plataforma simples, acessível e org
 | Integrante | O que fez no projeto |
 | --- | --- |
 | Fernando | Desenvolvimento do site, banco de dados, login e publicação |
+| Yasmin | Protótipo visual do site |
+| Rebeca | Pesquisa das notícias |
 | Luiz | Questões do simulado e página Carreiras |
 | Piva | Questões de vestibular do simulado |
 | Tupi | Seleção dos vídeos e página Estágio |

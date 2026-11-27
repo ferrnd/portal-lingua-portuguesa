@@ -1,6 +1,6 @@
 # Requisitos
 
-Requisitos do Portal de Língua Portuguesa (Letrar), baseados no documento do Projeto Integrador Final.
+Requisitos do Portal de Língua Portuguesa (Vocábulo), baseados no documento do Projeto Integrador Final.
 
 ## Requisitos funcionais
 

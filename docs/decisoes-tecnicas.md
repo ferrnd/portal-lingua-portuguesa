@@ -1,6 +1,6 @@
 # Decisões técnicas
 
-Este documento explica as principais escolhas feitas no desenvolvimento do Portal de Língua Portuguesa (Letrar) e o motivo de cada uma.
+Este documento explica as principais escolhas feitas no desenvolvimento do Portal de Língua Portuguesa (Vocábulo) e o motivo de cada uma.
 
 ## Front-end e back-end no mesmo projeto
 
@@ -35,7 +35,7 @@ O painel em `/admin` usa o **Ant Design** para a tabela, os formulários e as ja
 
 ## Estilo e identidade visual
 
-O estilo é feito com **CSS Modules**, um arquivo de estilo para cada componente. Os ícones vêm da biblioteca **lucide-react**, a mesma usada no Portal Integrador. O cabeçalho traz os personagens criados pela equipe e a cor azul como base, combinando com os demais portais.
+O estilo é feito com **CSS Modules**, um arquivo de estilo para cada componente. Os ícones vêm da biblioteca **lucide-react**, a mesma usada no Portal Integrador. O visual é limpo, com fundo branco, a fonte Manrope e o azul como cor principal, combinando com os demais portais. O topo de cada página é uma faixa azul com cantos arredondados, e o cabeçalho fica por cima dela em duas abas brancas ligadas à faixa por uma curva. Essa curva é um desenho SVG usado como fundo no CSS, sem biblioteca.
 
 ## Imagens e LGPD
 
@@ -43,4 +43,4 @@ As fotos das notícias foram escolhidas em fontes que permitem o uso com crédit
 
 ## Testes
 
-O fluxo de cadastro de notícias será testado com **Cypress**, de ponta a ponta, usando o banco real e uma conta de teste exclusiva no Clerk, sem dados falsos (mocks).
+O fluxo de login e cadastro de notícias é testado com **Cypress**, de ponta a ponta, sem dados falsos (mocks). O teste usa um **banco de teste separado** (um segundo projeto no Supabase, no `.env.test`), para nunca mexer nas notícias de verdade, e uma conta de teste exclusiva no Clerk. Para o Clerk aceitar o login do robô, usamos o pacote oficial `@clerk/testing`, que entra com um token de uso único gerado pelo servidor. O resultado está em `docs/testes/relatorio.md`.
