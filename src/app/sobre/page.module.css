@@ -3,63 +3,65 @@
     flex-direction: column;
     gap: 48px;
     max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px 64px;
-    color: #1a1a1a;
+    padding-top: 48px;
 }
 
-.pagina h1,
 .pagina h2 {
-    font-family: var(--font-geist-sans), Arial, sans-serif;
-    font-weight: 700;
-    color: #0352af;
+    color: var(--azul-escuro);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
-.topo h1 {
-    margin-bottom: 16px;
-    font-size: 2.2rem;
-}
-
-.topo p {
+.projeto p {
     max-width: 760px;
-    color: #44475a;
-    font-size: 1.1rem;
-    line-height: 1.7;
+    margin-top: 12px;
+    color: #334155;
+    font-size: 1.15rem;
+    line-height: 1.75;
 }
 
 .cartoes {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 24px;
 }
 
 .cartao {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 24px;
-    border: 1px solid #e3e8f2;
-    border-radius: 8px;
-    background: #ffffff;
-    box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
-    color: #0352af;
-    background-image: url('/textura.webp');
-    background-size: 420px;
-    background-blend-mode: multiply;
+    padding: 28px;
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    background: var(--papel);
 }
 
-.cartao h2 {
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background: var(--azul);
+    color: var(--branco);
+}
+
+.cartao h3 {
+    color: var(--azul-escuro);
     font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
 .cartao p {
-    color: #44475a;
+    color: var(--cinza);
     line-height: 1.6;
 }
 
 .titulo {
-    margin-bottom: 18px;
-    font-size: 1.6rem;
+    margin-bottom: 20px;
 }
 
 .recursos {
@@ -71,27 +73,18 @@
 .recurso {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 20px;
-    border: 1px solid #e3e8f2;
-    border-radius: 6px;
-    color: #0352af;
-    background-color: #ffffff;
-    background-image: url('/textura.webp');
-    background-size: 420px;
-    background-blend-mode: multiply;
+    gap: 12px;
+    padding: 22px;
+    border-radius: 12px;
+    background: var(--azul-escuro);
+    color: var(--azul-claro);
 }
 
 .recurso span {
-    color: #44475a;
-    line-height: 1.5;
+    color: var(--branco);
+    font-weight: 600;
+    line-height: 1.4;
 }
-
-
-
-
-
-
 
 .integrador {
     display: flex;
@@ -99,30 +92,24 @@
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    padding: 24px 28px;
-    border-radius: 8px;
-    background: #0352af;
-    color: #ffffff;
-    background-image: url('/textura.webp');
-    background-size: 420px;
-    background-blend-mode: multiply;
+    padding: 28px 32px;
+    border-radius: 12px;
+    background: var(--azul-claro);
+    color: var(--azul-escuro);
 }
 
 .integrador p {
     max-width: 560px;
+    font-weight: 600;
     line-height: 1.6;
 }
 
 .integrador a {
-    padding: 12px 20px;
-    border-radius: 6px;
-    background: #ffffff;
-    color: #0352af;
-    font-weight: 600;
-    text-decoration: none;
-    background-image: url('/textura.webp');
-    background-size: 420px;
-    background-blend-mode: multiply;
+    padding: 12px 22px;
+    border-radius: 8px;
+    background: var(--azul-escuro);
+    color: var(--branco);
+    font-weight: 700;
 }
 
 @media (max-width: 800px) {

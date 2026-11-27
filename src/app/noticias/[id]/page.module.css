@@ -1,17 +1,16 @@
 .pagina {
-    max-width: 780px;
-    margin: 0 auto;
-    padding: 32px 20px 64px;
+    max-width: 800px;
+    padding-top: 48px;
 }
 
 .voltar {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-bottom: 24px;
-    color: #0352af;
-    font-weight: 600;
-    text-decoration: none;
+    margin-bottom: 28px;
+    color: var(--azul);
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
 .voltar:hover {
@@ -19,37 +18,37 @@
 }
 
 .data {
-    color: #6b7080;
-    font-size: 0.95rem;
+    color: var(--cinza);
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 .noticia h1 {
     margin: 8px 0 14px;
-    color: #0352af;
-    font-family: var(--font-geist-sans), Arial, sans-serif;
-    font-size: 2.1rem;
-    font-weight: 700;
-    line-height: 1.25;
+    color: var(--azul-escuro);
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
 .resumo {
-    margin-bottom: 24px;
-    color: #44475a;
-    font-size: 1.15rem;
-    line-height: 1.6;
+    margin-bottom: 28px;
+    color: var(--cinza);
+    font-size: 1.25rem;
+    line-height: 1.5;
 }
 
 .imagem {
     display: block;
     width: 100%;
-    margin-bottom: 28px;
-    border-radius: 8px;
+    margin-bottom: 32px;
+    border-radius: 10px;
 }
 
 .conteudo p {
-    margin-bottom: 18px;
-    color: #2b2d3a;
-    font-size: 1.05rem;
+    margin-bottom: 20px;
+    color: #1e293b;
+    font-size: 1.08rem;
     line-height: 1.8;
 }
 
@@ -58,23 +57,20 @@
     align-items: center;
     gap: 8px;
     margin-top: 12px;
-    padding: 12px 22px;
-    border-radius: 6px;
-    background: #0352af;
-    color: #ffffff;
-    font-weight: 600;
-    text-decoration: none;
-    background-image: url('/textura.webp');
-    background-size: 420px;
-    background-blend-mode: multiply;
+    padding: 13px 24px;
+    border-radius: 8px;
+    background: var(--azul-escuro);
+    color: var(--branco);
+    font-weight: 700;
+    transition: 0.2s;
 }
 
 .fonte:hover {
-    background: #02418a;
+    background: var(--azul);
 }
 
 @media (max-width: 600px) {
     .noticia h1 {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
 }

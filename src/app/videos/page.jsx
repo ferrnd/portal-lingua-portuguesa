@@ -1,26 +1,47 @@
-import Cabecalho from '@/components/Cabecalho';
+import { Suspense } from 'react';
+import { connection } from 'next/server';
+import TopoPagina from '@/components/TopoPagina';
+import VideoModel from '@/models/VideoModel.js';
+import styles from './page.module.css';
 
-/*
-   PEDIDO PARA A IA - Página de Vídeos (/videos)
+async function ListaVideos() {
+    await connection();
+    const videos = await VideoModel.buscarTodos();
 
-   1. Buscar os vídeos do banco com VideoModel.buscarTodos() (src/models/VideoModel.js).
-      Cada vídeo tem: titulo, descricao e youtubeId (os 11 caracteres do link do YouTube).
-   2. Mostrar em grade (2 ou 3 colunas): o vídeo incorporado em um iframe com
-      src="https://www.youtube.com/embed/{youtubeId}", proporção 16:9 (aspect-ratio), e embaixo
-      o título e a descrição. Usar title no iframe e allowFullScreen.
-   3. Título da página "Vídeos" com uma frase curta de introdução.
-   4. Se não houver vídeos, mostrar uma mensagem amigável.
-   5. Trocar o href="#" do botão de vídeos da home para /videos, se houver.
+    if (videos.length === 0) {
+        return <p className={styles.vazio}>Nenhum vídeo cadastrado ainda. Volte em breve!</p>;
+    }
 
-   Regras gerais (valem para todas as páginas):
-   - Manter o <Cabecalho ativo="..." /> no topo e seguir o visual da home (cards brancos com borda
-     #e3e8f2, cantos arredondados de 16px, títulos na fonte Geist em azul #0352af, CSS Modules).
-   - Código simples, no nível das aulas: sem bibliotecas novas (só lucide-react para ícones).
-   - Página que lê o banco é um componente async com "await connection()" dentro de um <Suspense>,
-     igual ao src/components/Noticias.jsx (o projeto usa cacheComponents).
-   - Ler o banco direto pelo Model (ex.: VideoModel.buscarTodos()), sem fetch para a própria API.
-   - Responsiva (celular, tablet e computador) e sem dados pessoais (LGPD).
-*/
+    return (
+        <div className={styles.grade}>
+            {videos.map((video) => (
+                <article key={video.id} className={styles.card}>
+                    <iframe
+                        src={`https://www.youtube.com/embed/${video.youtubeId}`}
+                        title={video.titulo}
+                        loading="lazy"
+                        allowFullScreen
+                        className={styles.video}
+                    />
+                    <div className={styles.texto}>
+                        <h3>{video.titulo}</h3>
+                        <p>{video.descricao}</p>
+                    </div>
+                </article>
+            ))}
+        </div>
+    );
+}
+
 export default function Videos() {
-    return <Cabecalho ativo="videos" />;
+    return (
+        <>
+            <TopoPagina titulo="Vídeos" subtitulo="Aulas curtas de gramática, interpretação e redação." />
+            <main className={`container ${styles.pagina}`}>
+                <Suspense fallback={<p>Carregando...</p>}>
+                    <ListaVideos />
+                </Suspense>
+            </main>
+        </>
+    );
 }

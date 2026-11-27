@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import Cabecalho from '@/components/Cabecalho';
+import TopoPagina from '@/components/TopoPagina';
 import NoticiaModel from '@/models/NoticiaModel.js';
 import styles from './page.module.css';
 
@@ -48,8 +48,8 @@ async function Detalhe({ params }) {
 export default function PaginaNoticia({ params }) {
     return (
         <>
-            <Cabecalho ativo="noticias" />
-            <main className={styles.pagina}>
+            <TopoPagina titulo="Notícias" subtitulo="Leitura, educação, literatura e vestibulares." />
+            <main className={`container ${styles.pagina}`}>
                 <Suspense fallback={<p>Carregando...</p>}>
                     <Detalhe params={params} />
                 </Suspense>

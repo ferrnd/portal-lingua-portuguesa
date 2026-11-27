@@ -3,7 +3,7 @@ import { connection } from 'next/server';
 import { UserButton } from '@clerk/nextjs';
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import Painel from '@/components/admin/Painel';
-import Cabecalho from '@/components/Cabecalho';
+import TopoPagina from '@/components/TopoPagina';
 import styles from './page.module.css';
 
 async function AreaDoPainel() {
@@ -18,10 +18,10 @@ async function AreaDoPainel() {
 export default function AdminPage() {
     return (
         <>
-            <Cabecalho ativo="painel" />
-            <main className={styles.pagina}>
-                <div className={styles.topo}>
-                    <h1>Painel administrativo</h1>
+            <TopoPagina titulo="Painel" subtitulo="Cadastre, edite e exclua notícias, vídeos e questões." />
+            <main className={`container ${styles.pagina}`}>
+                <div className={styles.usuario}>
+                    <span>Conectado como administrador</span>
                     <Suspense>
                         <UserButton />
                     </Suspense>

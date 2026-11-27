@@ -1,16 +1,12 @@
-import Cabecalho from '@/components/Cabecalho';
+import TopoPagina from '@/components/TopoPagina';
 import Noticias from '@/components/Noticias';
 import styles from './page.module.css';
 
 export default function PaginaNoticias() {
     return (
         <>
-            <Cabecalho ativo="noticias" />
-            <main className={styles.pagina}>
-                <h1>Notícias</h1>
-                <p className={styles.introducao}>
-                    Notícias sobre leitura, educação, literatura e vestibulares, com o link para a reportagem original.
-                </p>
+            <TopoPagina titulo="Notícias" subtitulo="Leitura, educação, literatura e vestibulares." />
+            <main className={`container ${styles.pagina}`}>
                 <Noticias />
             </main>
         </>

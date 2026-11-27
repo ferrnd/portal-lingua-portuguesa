@@ -1,34 +1,34 @@
 import { Target, Users, Newspaper, SquarePlay, ClipboardCheck, Lightbulb } from 'lucide-react';
-import Cabecalho from '@/components/Cabecalho';
+import TopoPagina from '@/components/TopoPagina';
 import styles from './page.module.css';
 
 export default function Sobre() {
     return (
         <>
-            <Cabecalho ativo="sobre" />
-            <main className={styles.pagina}>
-                <section className={styles.topo}>
-                    <h1>Sobre nós</h1>
+            <TopoPagina titulo="Sobre nós" subtitulo="Quem somos e por que criamos o portal." />
+            <main className={`container ${styles.pagina}`}>
+                <section className={styles.projeto}>
+                    <h2>O projeto</h2>
                     <p>
-                        O Letrar é o Portal de Língua Portuguesa criado pelo <strong>Grupo 4</strong> do curso Técnico em
-                        Desenvolvimento de Sistemas do <strong>SENAI Valinhos</strong>, como Projeto Integrador final do
-                        curso. O portal reúne notícias, videoaulas, dicas e um simulado de Língua Portuguesa para apoiar
-                        o estudo de leitura, escrita e interpretação de texto.
+                        O Vocábulo é o Portal de Língua Portuguesa criado pelo <strong>Grupo 4</strong> do curso
+                        Técnico em Desenvolvimento de Sistemas do <strong>SENAI Valinhos</strong>, como Projeto Integrador
+                        final do curso. O portal reúne notícias, videoaulas, dicas e um simulado para apoiar o estudo de
+                        leitura, escrita e interpretação de texto.
                     </p>
                 </section>
 
                 <section className={styles.cartoes}>
                     <div className={styles.cartao}>
-                        <Target size={28} />
-                        <h2>Objetivo</h2>
+                        <span className={styles.icone}><Target size={22} /></span>
+                        <h3>Objetivo</h3>
                         <p>
                             Ajudar os estudantes a aprimorar seus conhecimentos em Língua Portuguesa e a se preparar para
                             provas e vestibulares.
                         </p>
                     </div>
                     <div className={styles.cartao}>
-                        <Users size={28} />
-                        <h2>Para quem</h2>
+                        <span className={styles.icone}><Users size={22} /></span>
+                        <h3>Para quem</h3>
                         <p>
                             Estudantes que querem reforçar o que aprenderam na escola, revisar conteúdos e treinar para o
                             Enem e outros vestibulares.
@@ -40,19 +40,19 @@ export default function Sobre() {
                     <h2 className={styles.titulo}>O que você encontra aqui</h2>
                     <div className={styles.recursos}>
                         <div className={styles.recurso}>
-                            <Newspaper size={24} />
+                            <Newspaper size={22} />
                             <span>Notícias sobre a língua portuguesa</span>
                         </div>
                         <div className={styles.recurso}>
-                            <SquarePlay size={24} />
+                            <SquarePlay size={22} />
                             <span>Videoaulas de gramática e literatura</span>
                         </div>
                         <div className={styles.recurso}>
-                            <ClipboardCheck size={24} />
+                            <ClipboardCheck size={22} />
                             <span>Simulado com questões de vestibular</span>
                         </div>
                         <div className={styles.recurso}>
-                            <Lightbulb size={24} />
+                            <Lightbulb size={22} />
                             <span>Dicas de estudo, carreiras e estágio</span>
                         </div>
                     </div>
