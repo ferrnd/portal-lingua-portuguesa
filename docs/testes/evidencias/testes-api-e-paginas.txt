@@ -1,0 +1,57 @@
+Testes executados em 25/11/2026 22:08 contra o servidor de produção local (next build + next start), com o banco real do Supabase.
+
+== API: leitura (pública) ==
+[200] GET /api/noticias
+      [{"id":11,"titulo":"Literatura indígena e afro-brasileira ganha espaço em festival literário","resumo":"Escritores discutem a importância de apresentar hist
+      total: 15
+[200] GET /api/noticias/1
+      {"data":{"id":1,"titulo":"Brasil ainda tem 8,4 milhões de pessoas que não sabem ler e escrever","resumo":"Apesar da redução da taxa de analfabetismo no Bras
+[400] GET /api/noticias/abc (id inválido)
+      {"error":"O ID enviado não é um número válido."}
+[404] GET /api/noticias/99999 (não existe)
+      {"error":"Registro não encontrado."}
+[200] GET /api/noticias?titulo=enem (filtro)
+      [{"id":2,"titulo":"Tema da redação do ENEM 2026 é a valorização do SUS","resumo":"O tema da redação do ENEM 2026 foi \"A valorização do Sistema Único 
+[200] GET /api/videos
+      [{"id":1,"titulo":"10 Curiosidades sobre a Língua Portuguesa","descricao":"Dez curiosidades sobre a língua portuguesa, da origem comum com o galego às vogais
+      total: 15
+[200] GET /api/videos/1
+      {"data":{"id":1,"titulo":"10 Curiosidades sobre a Língua Portuguesa","descricao":"Dez curiosidades sobre a língua portuguesa, da origem comum com o galego às
+[200] GET /api/questoes
+      [{"id":1,"enunciado":"Leia o trecho: \"O ônibus lotado seguia devagar, e a cidade, indiferente, engolia seus passageiros como quem não sente o gosto do que co
+      total: 25
+[200] GET /api/questoes/1
+      {"data":{"id":1,"enunciado":"Leia o trecho: \"O ônibus lotado seguia devagar, e a cidade, indiferente, engolia seus passageiros como quem não sente o gosto do
+
+== API: escrita sem login (deve ser bloqueada no back-end) ==
+[401] POST /api/noticias sem login
+      {"error":"Faça login para continuar."}
+[401] PUT /api/noticias/1 sem login
+      {"error":"Faça login para continuar."}
+[401] DELETE /api/noticias/1 sem login
+      {"error":"Faça login para continuar."}
+[401] POST /api/videos sem login
+      {"error":"Faça login para continuar."}
+[401] PUT /api/videos/1 sem login
+      {"error":"Faça login para continuar."}
+[401] DELETE /api/videos/1 sem login
+      {"error":"Faça login para continuar."}
+[401] POST /api/questoes sem login
+      {"error":"Faça login para continuar."}
+[401] PUT /api/questoes/1 sem login
+      {"error":"Faça login para continuar."}
+[401] DELETE /api/questoes/1 sem login
+      {"error":"Faça login para continuar."}
+
+== Páginas ==
+[200] GET /
+[200] GET /noticias
+[200] GET /noticias/1
+[200] GET /noticias/99999 (mostra a página "This page could not be found"; o status é 200 porque a página é enviada em streaming)
+[200] GET /videos
+[200] GET /sobre
+[200] GET /simulado
+[200] GET /dicas
+[200] GET /carreiras
+[200] GET /estagio
+[307] GET /admin sem login (redireciona para a tela de login do Clerk)

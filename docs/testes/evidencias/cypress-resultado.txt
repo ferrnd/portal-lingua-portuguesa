@@ -1,0 +1,32 @@
+Execução do teste Cypress em 26/11/2026, com o site rodando com o banco de TESTE (npm run start:teste)
+Comando: npx cypress run
+
+  Running:  cadastro-noticia.cy.js                                                          (1 of 1)
+
+  Login e cadastro de uma notícia
+    √ sem login, o painel manda para a tela de login (6521ms)
+    √ cadastra uma notícia pelo painel e ela aparece no site (23383ms)
+
+  2 passing (36s)
+
+  (Results)
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      2                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  9                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     35 seconds                                                                       │
+  │ Spec Ran:     cadastro-noticia.cy.js                                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  cadastro-noticia.cy.js                   00:35        2        2        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:35        2        2        -        -        -
+
+Conferência da limpeza, feita logo depois no banco de teste:
+  notícias no banco: 15 | notícias de teste do Cypress que sobraram: 0
