@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "start:teste": "node --env-file=.env.test node_modules/next/dist/bin/next start -p 3001",
+    "test:e2e": "cypress run"
   },
   "dependencies": {
     "@ant-design/nextjs-registry": "^1.3.0",
@@ -25,6 +27,8 @@
     "react-toastify": "^11.2.0"
   },
   "devDependencies": {
+    "@clerk/testing": "^2.3.9",
+    "cypress": "^15.21.2",
     "eslint": "^9",
     "eslint-config-next": "16.4.5",
     "prisma": "^7.3.0"

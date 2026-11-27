@@ -43,3 +43,7 @@ next-env.d.ts
 
 # prisma
 prisma/migrations/
+
+# Cypress (vídeos e prints são gerados a cada execução)
+/cypress/videos
+/cypress/screenshots
