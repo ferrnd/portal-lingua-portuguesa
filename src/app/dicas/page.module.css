@@ -1,0 +1,90 @@
+.conteudo {
+    padding: 48px 0 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.intro {
+    color: #5f6670;
+    font-size: 1rem;
+    max-width: 760px;
+}
+
+.cardCinza, .cardAzul {
+    border-radius: 14px;
+    padding: 26px;
+}
+
+.cardCinza {
+    background: linear-gradient(rgba(240, 242, 245,0.55), rgba(240, 242, 245, 0.55)),url('/textura.webp') center / 420px;
+    background-color: #eef1f4;
+    background-blend-mode: normal, multiply;
+}
+
+.cardAzul {
+    background: linear-gradient(rgba(37, 99, 235, 0.75), rgba(37, 99, 235, 0.75)), url('/textura-concreto.webp') center / cover;
+    background-color: #2563eb;
+    color: #fff;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.subtitulo {
+    font-size: 1.1rem;
+    margin: 20px 0 10px;
+}
+
+.texto {
+    font-size: 0.95rem;
+    margin-bottom: 14px;
+}
+
+.nota {
+    margin-top: 14px;
+    font-size: 0.92rem;
+    color: #5f6670;
+}
+
+.lista {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.95rem;
+}
+
+.tabelaWrap {
+    overflow-x: auto;
+    margin: 12px 0;
+    border-radius: 10px;
+}
+
+.tabela {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.tabela th, .tabela td{
+    padding: 12px 14px;
+}
+
+.cardAzul .tabela { background: rgba(11, 18, 32, 0.25);}
+.cardAzul .tabela th {background: rgba(11, 18, 32, 0.35);}
+.cardAzul .tabela td {border-top: 1px solid rgba(255, 255, 255, 0.2);}
+
+
+.cardCinza .tabela { background: #fff;}
+.cardCinza .tabela th {background:#e8effd; color: #0b1220;}
+.cardCinza .tabela td {border-top: 1px solid #e4e2da;}
+
