@@ -1,0 +1,362 @@
+.simulado {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+/* Barra de progresso que acompanha a rolagem */
+.progresso {
+    position: sticky;
+    top: 12px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 20px;
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    background: var(--branco);
+    box-shadow: 0 6px 20px rgba(17, 24, 39, 0.06);
+    font-size: 0.92rem;
+    white-space: nowrap;
+}
+
+.barra {
+    flex: 1;
+    height: 8px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--salvia-claro);
+}
+
+.barra div {
+    height: 100%;
+    border-radius: 10px;
+    background: var(--terracota);
+    transition: width 0.4s;
+}
+
+/* Cartão do resultado */
+.resultado {
+    padding: 32px;
+    border-radius: 12px;
+    background: var(--azul-escuro);
+    color: var(--branco);
+    text-align: center;
+}
+
+.rotulo {
+    color: #c5d3ee;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.nota {
+    margin: 6px 0;
+    font-size: 3.4rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.nota span {
+    color: #c5d3ee;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.mensagem {
+    max-width: 460px;
+    margin: 0 auto 22px;
+    color: #dbe5ff;
+}
+
+/* Questões */
+.questao,
+.questaoCerta,
+.questaoErrada {
+    padding: 24px;
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    background: var(--branco);
+}
+
+.questaoCerta {
+    border-color: #86efac;
+}
+
+.questaoErrada {
+    border-color: #fca5a5;
+}
+
+.cabecalhoQuestao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.numero {
+    color: var(--salvia-escuro);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.selo,
+.seloErro {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.selo {
+    color: #15803d;
+}
+
+.seloErro {
+    color: #b91c1c;
+}
+
+.enunciado {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+/* Alternativas */
+.alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.alternativa,
+.alternativaEscolhida,
+.alternativaCorreta,
+.alternativaErrada,
+.alternativaApagada {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+    background: var(--branco);
+    color: var(--texto);
+    font: inherit;
+    font-size: 0.95rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.alternativa:hover {
+    border-color: var(--azul);
+    background: var(--papel);
+}
+
+.alternativaEscolhida {
+    border-color: var(--azul);
+    background: var(--azul-claro);
+}
+
+.alternativaCorreta {
+    border-color: #22c55e;
+    background: #dcfce7;
+    cursor: default;
+}
+
+.alternativaErrada {
+    border-color: #ef4444;
+    background: #fee2e2;
+    cursor: default;
+}
+
+.alternativaApagada {
+    color: var(--cinza);
+    cursor: default;
+}
+
+.letra {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--borda);
+    border-radius: 50%;
+    background: var(--branco);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.alternativaEscolhida .letra {
+    border-color: var(--azul);
+    background: var(--azul);
+    color: var(--branco);
+}
+
+.alternativaCorreta .letra {
+    border-color: #22c55e;
+    background: #22c55e;
+    color: var(--branco);
+}
+
+.alternativaErrada .letra {
+    border-color: #ef4444;
+    background: #ef4444;
+    color: var(--branco);
+}
+
+.explicacao {
+    margin-top: 16px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: var(--papel);
+    color: var(--texto);
+    font-size: 0.93rem;
+    line-height: 1.6;
+}
+
+/* Botões */
+.final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.aviso {
+    color: #b91c1c;
+    font-weight: 600;
+    text-align: center;
+}
+
+.botao,
+.botaoClaro {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    align-self: center;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 10px;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.botao {
+    background: var(--terracota);
+    color: var(--branco);
+}
+
+.botao:hover {
+    background: var(--terracota-escuro);
+}
+
+.botaoClaro {
+    background: var(--branco);
+    color: var(--azul-escuro);
+}
+
+.botaoClaro:hover {
+    background: var(--azul-claro);
+}
+
+@media (max-width: 600px) {
+    .questao,
+    .questaoCerta,
+    .questaoErrada,
+    .resultado {
+        padding: 18px;
+    }
+
+    .progresso {
+        padding: 12px 14px;
+    }
+
+    .nota {
+        font-size: 2.8rem;
+    }
+}
+
+/* Botões "físicos": uma sombra sólida embaixo que afunda ao clicar */
+.alternativa,
+.alternativaEscolhida {
+    box-shadow: 0 3px 0 var(--borda);
+    transition: transform 0.1s, box-shadow 0.1s, background 0.2s, border-color 0.2s;
+}
+
+.alternativaEscolhida {
+    box-shadow: 0 3px 0 var(--azul);
+}
+
+.alternativa:active,
+.alternativaEscolhida:active {
+    box-shadow: 0 0 0 var(--borda);
+    transform: translateY(3px);
+}
+
+.alternativaCorreta {
+    box-shadow: 0 3px 0 #22c55e;
+}
+
+.alternativaErrada {
+    box-shadow: 0 3px 0 #ef4444;
+}
+
+.botao {
+    box-shadow: 0 4px 0 #8f5232;
+    transition: transform 0.1s, box-shadow 0.1s, background 0.2s;
+}
+
+.botaoClaro {
+    box-shadow: 0 4px 0 #9fb6e6;
+    transition: transform 0.1s, box-shadow 0.1s, background 0.2s;
+}
+
+.botao:active,
+.botaoClaro:active {
+    box-shadow: 0 0 0 transparent;
+    transform: translateY(4px);
+}
+
+/* Navegação entre as questões */
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navegacao .botao {
+    align-self: auto;
+}
+
+.botaoVoltar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+    background: var(--branco);
+    color: var(--texto);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoVoltar:hover {
+    border-color: var(--azul-escuro);
+}
